@@ -2,7 +2,7 @@
 
   The first One    git pull
 git add .
-git commit -m 
+git commit -m "comentario"
 git push -u origin master
 
 
