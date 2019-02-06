@@ -3,8 +3,8 @@
   The first One    git pull
 git add .
 git commit -m "comentario"
-git push -u origin master
+git push 
 
 
 -- Para ver cambios que ha hecho los otros programadores --
-git pull origin master
+git pull 
