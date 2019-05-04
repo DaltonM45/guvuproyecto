@@ -1,6 +1,7 @@
   -- Siempre que hagas cambios, haz esto --
 
-  The first One    git pull
+  The first One  
+git pull
 git add .
 git commit -m "comentario"
 git push 
