@@ -5,6 +5,8 @@
 
 
 <example-component>  </example-component>
+<example-component>  </example-component>
+<example-component>  </example-component>
 
 <dalton-component>  </dalton-component>
 
