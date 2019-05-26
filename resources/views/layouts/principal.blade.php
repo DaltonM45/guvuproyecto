@@ -4,12 +4,7 @@
 @section('content-body')
 
 
-<example-component>  </example-component>
-<example-component>  </example-component>
-<example-component>  </example-component>
-
-<dalton-component>  </dalton-component>
-
+<router-view></router-view>
 
 
 @endsection

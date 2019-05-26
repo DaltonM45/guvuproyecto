@@ -7,5 +7,9 @@ git commit -m "comentario"
 git push 
 
 
+iniviar servidor>
+php artisan serve
+
+
 -- Para ver cambios que ha hecho los otros programadores --
 git pull 
