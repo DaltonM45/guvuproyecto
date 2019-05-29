@@ -223,6 +223,18 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -313,7 +325,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n@font-face {\r\n    font-family:\"Ranga\";\r\n    src: url('/fonts/Ranga-Bold.ttf');\n}\n.footer[data-v-61a7c374]{\n}\n.footer p[data-v-61a7c374]{\r\n    font-family: \"Ranga\";\r\n    font-size: 18px;\n}\r\n\r\n\r\n", ""]);
+exports.push([module.i, "\n@font-face {\r\n    font-family:\"Ranga\";\r\n    src: url('/fonts/Ranga-Bold.ttf');\n}\n.footer[data-v-61a7c374]{\r\n   background-color: #2D3047;\r\n   color: #fff;\r\n   display: flex;\r\n   justify-content: center;\r\n   padding-top: 18px;\r\n   padding-bottom: 32px;\n}\n.sub-foot[data-v-61a7c374]{\r\n    width: 90%;\r\n    display: flex;\r\n    justify-content: space-between;\n}\n.sub-foot .panel-guvu p[data-v-61a7c374] {\r\n    font-size: 48px;\n}\r\n\r\n\r\n\r\n/* panel redes */\n.panel-redes[data-v-61a7c374] {\n}\n.panel-redes p[data-v-61a7c374]{\r\n   font-size: 40px;\n}\n.panel-redes .panel-icons[data-v-61a7c374]{\r\n    display: flex;\r\n    justify-content: space-around;\n}\n.panel-redes .panel-icons i[data-v-61a7c374] {\r\n    font-size: 34px;\r\n    cursor: pointer;\n}\n.fa-facebook-square[data-v-61a7c374]{\r\n    /* color:#3B5998 ; */\n}\n.copyright[data-v-61a7c374]{\r\n    background-color: #222538;\r\n    color: #fff;\r\n    padding-top: 8px;\r\n    padding-bottom: 8px;\n}\n.copyright p[data-v-61a7c374]{\r\n    margin: 0px;\n}\r\n\r\n", ""]);
 
 // exports
 
@@ -1669,23 +1681,31 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "footer" }, [
-      _c("p", [
-        _vm._v(
-          "\n             Lorem ipsum dolor sit amet consectetur,\n              adipisicing elit. Sed labore laborum quaerat quo quae sint voluptatibus, \n              doloribus nisi asperiores exercitationem delectus, ab, odit corrupti? \n              Blanditiis quaerat illo explicabo fugit architecto.\n          "
-        )
+    return _c("div", [
+      _c("div", { staticClass: "footer" }, [
+        _c("div", { staticClass: "sub-foot" }, [
+          _c("div", { staticClass: "panel-guvu" }, [
+            _c("div", [_c("p", [_vm._v("guvu")])])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "panel-opciones" }),
+          _vm._v(" "),
+          _c("div", { staticClass: "panel-redes" }, [
+            _c("div", [_c("p", [_vm._v("Redes sociales")])]),
+            _vm._v(" "),
+            _c("div", { staticClass: "panel-icons" }, [
+              _c("div", [_c("i", { staticClass: "fab fa-facebook-square" })]),
+              _vm._v(" "),
+              _c("div", [_c("i", { staticClass: "fab fa-instagram" })]),
+              _vm._v(" "),
+              _c("div", [_c("i", { staticClass: "fab fa-youtube" })])
+            ])
+          ])
+        ])
       ]),
       _vm._v(" "),
-      _c("p", [
-        _vm._v(
-          "\n             Lorem ipsum dolor sit amet consectetur,\n              adipisicing elit. Sed labore laborum quaerat quo quae sint voluptatibus, \n              doloribus nisi asperiores exercitationem delectus, ab, odit corrupti? \n              Blanditiis quaerat illo explicabo fugit architecto.\n          "
-        )
-      ]),
-      _vm._v(" "),
-      _c("p", [
-        _vm._v(
-          "\n             Lorem ipsum dolor sit amet consectetur,\n              adipisicing elit. Sed labore laborum quaerat quo quae sint voluptatibus, \n              doloribus nisi asperiores exercitationem delectus, ab, odit corrupti? \n              Blanditiis quaerat illo explicabo fugit architecto.\n          "
-        )
+      _c("div", { staticClass: "copyright d-flex justify-content-center" }, [
+        _c("p", [_vm._v("2018 copyright")])
       ])
     ])
   }
