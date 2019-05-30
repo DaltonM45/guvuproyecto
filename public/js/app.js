@@ -235,6 +235,17 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -325,7 +336,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n@font-face {\r\n    font-family:\"Ranga\";\r\n    src: url('/fonts/Ranga-Bold.ttf');\n}\n.footer[data-v-61a7c374]{\r\n   background-color: #2D3047;\r\n   color: #fff;\r\n   display: flex;\r\n   justify-content: center;\r\n   padding-top: 18px;\r\n   padding-bottom: 32px;\n}\n.sub-foot[data-v-61a7c374]{\r\n    width: 90%;\r\n    display: flex;\r\n    justify-content: space-between;\n}\n.sub-foot .panel-guvu p[data-v-61a7c374] {\r\n    font-size: 48px;\n}\r\n\r\n\r\n\r\n/* panel redes */\n.panel-redes[data-v-61a7c374] {\n}\n.panel-redes p[data-v-61a7c374]{\r\n   font-size: 40px;\n}\n.panel-redes .panel-icons[data-v-61a7c374]{\r\n    display: flex;\r\n    justify-content: space-around;\n}\n.panel-redes .panel-icons i[data-v-61a7c374] {\r\n    font-size: 34px;\r\n    cursor: pointer;\n}\n.fa-facebook-square[data-v-61a7c374]{\r\n    /* color:#3B5998 ; */\n}\n.copyright[data-v-61a7c374]{\r\n    background-color: #222538;\r\n    color: #fff;\r\n    padding-top: 8px;\r\n    padding-bottom: 8px;\n}\n.copyright p[data-v-61a7c374]{\r\n    margin: 0px;\n}\r\n\r\n", ""]);
+exports.push([module.i, "\n@font-face {\r\n    font-family:\"Ranga\";\r\n    src: url('/fonts/Ranga-Bold.ttf');\n}\n.footer[data-v-61a7c374]{\r\n   /* background-color: #2D3047; */\r\n   background-color: #1e2b38;\r\n   color: #fff;\r\n   display: flex;\r\n   justify-content: center;\r\n   padding-top: 18px;\r\n   padding-bottom: 32px;\n}\n.sub-foot[data-v-61a7c374]{\r\n    width: 90%;\r\n    display: flex;\r\n    justify-content: space-between;\n}\n.sub-foot .panel-guvu p[data-v-61a7c374] {\r\n    font-size: 48px;\n}\n.panel-guvu[data-v-61a7c374] {\r\n    width: 40%;\n}\n.panel-guvu[data-v-61a7c374] {\r\n     display: flex;\r\n     align-items: center;\r\n     justify-content: center;\r\n     font-size: 100px;\n}\n.panel-guvu .gv[data-v-61a7c374]{\n}\r\n\r\n/* panel redes */\n.panel-redes[data-v-61a7c374] {\r\n   width: 60%;\r\n   padding-left: 18px;\r\n   padding-right: 18px;\n}\n.panel-redes .title[data-v-61a7c374]{\r\n   font-size: 22px;\n}\n.panel-redes .panel-icons[data-v-61a7c374]{\r\n    margin-top: 26px;\r\n    display: flex;\r\n    justify-content: center;\n}\n.panel-redes .panel-icons a[data-v-61a7c374] {\r\n    color: #fff;\r\n    width: 80px;\r\n    padding: 8px 0;\r\n    border-radius: 3px;\r\n    font-size: 38px;\r\n    margin: 0 20px;\r\n    text-align: center;\r\n    display: block;\r\n    background: #17202a;\n}\n.panel-redes .panel-icons .facebook[data-v-61a7c374]:hover {\r\n    background: #3b5998;\n}\n.panel-redes .panel-icons .instagram[data-v-61a7c374]:hover {\r\n     background: #3f729b;\n}\n.panel-redes .panel-icons .youtube[data-v-61a7c374]:hover {\r\n    background: #cd201f;\n}\n.fa-facebook-square[data-v-61a7c374]{\r\n    /* color:#3B5998 ; */\n}\n.copyright[data-v-61a7c374]{\r\n    background-color: #283a4b;\r\n    color: #fff;\r\n    padding-top: 8px;\r\n    padding-bottom: 8px;\n}\n.copyright p[data-v-61a7c374]{\r\n    margin: 0px;\n}\r\n\r\n", ""]);
 
 // exports
 
@@ -1685,20 +1696,42 @@ var staticRenderFns = [
       _c("div", { staticClass: "footer" }, [
         _c("div", { staticClass: "sub-foot" }, [
           _c("div", { staticClass: "panel-guvu" }, [
-            _c("div", [_c("p", [_vm._v("guvu")])])
+            _c("div", [_c("p", { staticClass: "gv" }, [_vm._v("GUVU")])])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "panel-opciones" }),
-          _vm._v(" "),
           _c("div", { staticClass: "panel-redes" }, [
-            _c("div", [_c("p", [_vm._v("Redes sociales")])]),
+            _c("div", [
+              _c("p", { staticClass: "title" }, [
+                _vm._v("Lorem ipsum dolor sit amet.")
+              ]),
+              _vm._v(" "),
+              _c("div", [
+                _c("p", [
+                  _vm._v(
+                    "\r\n                        Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n                        Aspernatur ipsum repudiandae debitis facere nemo corrupti \r\n                        possimus quisquam vel alias minus.\r\n                        Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n                        Aspernatur ipsum repudiandae debitis facere nemo corrupti \r\n                        possimus quisquam vel alias minus.\r\n                        Lorem ipsum dolor sit amet consectetur adipisicing elit. \r\n                        Aspernatur ipsum repudiandae debitis fa"
+                  )
+                ])
+              ])
+            ]),
             _vm._v(" "),
             _c("div", { staticClass: "panel-icons" }, [
-              _c("div", [_c("i", { staticClass: "fab fa-facebook-square" })]),
+              _c("div", [
+                _c("a", { staticClass: "facebook", attrs: { href: "#" } }, [
+                  _c("i", { staticClass: "fab fa-facebook-square" })
+                ])
+              ]),
               _vm._v(" "),
-              _c("div", [_c("i", { staticClass: "fab fa-instagram" })]),
+              _c("div", [
+                _c("a", { staticClass: "instagram", attrs: { href: "#" } }, [
+                  _c("i", { staticClass: "fab fa-instagram" })
+                ])
+              ]),
               _vm._v(" "),
-              _c("div", [_c("i", { staticClass: "fab fa-youtube" })])
+              _c("div", [
+                _c("a", { staticClass: "youtube", attrs: { href: "#" } }, [
+                  _c("i", { staticClass: "fab fa-youtube" })
+                ])
+              ])
             ])
           ])
         ])
