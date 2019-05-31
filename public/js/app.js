@@ -354,7 +354,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n@font-face {\r\n    font-family:\"Ranga\";\r\n    src: url('/fonts/Ranga-Bold.ttf');\n}\n.footer[data-v-61a7c374]{\r\n   /* background-color: #2D3047; */\r\n   background-color: #1e2b38;\r\n   color: #fff;\r\n   display: flex;\r\n   justify-content: center;\r\n   padding-top: 30px;\r\n   padding-bottom: 32px;\n}\n.sub-foot[data-v-61a7c374]{\r\n    width: 90%;\r\n    display: flex;\r\n    justify-content: space-around;\n}\n.sub-foot .panel-guvu[data-v-61a7c374]{\r\n    /* font-size: 22px; */\n}\n.panel-guvu[data-v-61a7c374] {\r\n    /* width: 40%; */\r\n    /* display: flex;\r\n    align-items: center;\r\n    justify-content: center; */\r\n    /* font-size: 100px; */\n}\r\n\r\n/* panel redes */\n.panel-redes[data-v-61a7c374] {\r\n   /* width: 60%; */\r\n   padding-left: 18px;\r\n   padding-right: 18px;\n}\n.panel-redes .panel-icons .title[data-v-61a7c374]{\r\n    margin-bottom: 20px;\n}\n.panel-redes .panel-icons .sub-panel-icons[data-v-61a7c374]{\r\n      display: flex;\r\n      justify-content: center;\n}\n.panel-redes .panel-icons a[data-v-61a7c374] {\r\n    color: #fff;\r\n    width: 80px;\r\n    padding: 8px 0;\r\n    border-radius: 3px;\r\n    font-size: 38px;\r\n    margin: 0 20px;\r\n    text-align: center;\r\n    display: block;\r\n    background: #17202a;\n}\n.panel-redes .panel-icons .facebook[data-v-61a7c374]:hover {\r\n    background: #3b5998;\n}\n.panel-redes .panel-icons .instagram[data-v-61a7c374]:hover {\r\n     background: #3f729b;\n}\n.panel-redes .panel-icons .youtube[data-v-61a7c374]:hover {\r\n    background: #cd201f;\n}\n.fa-facebook-square[data-v-61a7c374]{\r\n    /* color:#3B5998 ; */\n}\r\n\r\n/* Panel COPYRIGH */\n.copyright[data-v-61a7c374]{\r\n    background-color: #283a4b;\r\n    color: #fff;\r\n    padding-top: 8px;\r\n    padding-bottom: 8px;\n}\n.copyright p[data-v-61a7c374]{\r\n    margin: 0px;\n}\r\n\r\n", ""]);
+exports.push([module.i, "\n@font-face {\r\n    font-family:\"roboto\";\r\n    src: url('/fonts/Roboto-Regular.ttf');\n}\n@font-face {\r\n    font-family:\"AsapSemibold\";\r\n    src: url('/fonts/Asap-SemiBold.ttf');\n}\n.footer[data-v-61a7c374]{\r\n   /* background-color: #2D3047; */\r\n   background-color: #1e2b38;\r\n   color: #fff;\r\n   display: flex;\r\n   justify-content: center;\r\n   padding-top: 30px;\r\n   padding-bottom: 32px;\r\n   font-family: \"AsapSemibold\";\n}\n.sub-foot[data-v-61a7c374]{\r\n    width: 90%;\r\n    display: flex;\r\n    justify-content: space-around;\n}\n.sub-foot .panel-guvu a[data-v-61a7c374]{\r\n      font-family: \"roboto\";\r\n      text-decoration: none;\r\n      color: #ccc;\n}\n.sub-foot .panel-guvu a[data-v-61a7c374]:hover{\r\n      color: #fff;\n}\n.panel-guvu[data-v-61a7c374] {\r\n    /* width: 40%; */\r\n    /* display: flex;\r\n    align-items: center;\r\n    justify-content: center; */\r\n    /* font-size: 100px; */\n}\r\n\r\n/* Panel medio */\n.panel-medio a[data-v-61a7c374]{\r\n    font-family: \"roboto\";\r\n    text-decoration: none;\r\n     color: #ccc;\n}\n.panel-medio a[data-v-61a7c374]:hover{\r\n    color: #fff;\n}\r\n\r\n/* panel redes */\n.panel-redes[data-v-61a7c374] {\r\n   /* width: 60%; */\r\n   padding-left: 18px;\r\n   padding-right: 18px;\n}\n.panel-redes .panel-icons .title[data-v-61a7c374]{\r\n    margin-bottom: 20px;\n}\n.panel-redes .panel-icons .sub-panel-icons[data-v-61a7c374]{\r\n      display: flex;\r\n      justify-content: center;\n}\n.panel-redes .panel-icons a[data-v-61a7c374] {\r\n    color: #fff;\r\n    width: 80px;\r\n    padding: 8px 0;\r\n    border-radius: 3px;\r\n    font-size: 38px;\r\n    margin: 0 20px;\r\n    text-align: center;\r\n    display: block;\r\n    background: #17202a;\n}\n.panel-redes .panel-icons .facebook[data-v-61a7c374]:hover {\r\n    background: #3b5998;\n}\n.panel-redes .panel-icons .instagram[data-v-61a7c374]:hover {\r\n     background: #3f729b;\n}\n.panel-redes .panel-icons .youtube[data-v-61a7c374]:hover {\r\n    background: #cd201f;\n}\n.fa-facebook-square[data-v-61a7c374]{\r\n    /* color:#3B5998 ; */\n}\r\n\r\n/* Panel COPYRIGH */\n.copyright[data-v-61a7c374]{\r\n    background-color: #283a4b;\r\n    color: #fff;\r\n    padding-top: 8px;\r\n    padding-bottom: 8px;\r\n    font-family: \"roboto\";\n}\n.copyright p[data-v-61a7c374]{\r\n    margin: 0px;\n}\r\n\r\n", ""]);
 
 // exports
 
@@ -1714,7 +1714,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "footer" }, [
         _c("div", { staticClass: "sub-foot" }, [
           _c("div", { staticClass: "panel-guvu" }, [
-            _c("div", [_c("h4", [_vm._v("Conocenos")])]),
+            _c("div", [_c("h3", [_vm._v("Conocenos")])]),
             _vm._v(" "),
             _c("div", [
               _c("a", { attrs: { href: "#" } }, [
@@ -1742,7 +1742,7 @@ var staticRenderFns = [
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "panel-medio" }, [
-            _c("div", [_c("h4", [_vm._v("Informacion")])]),
+            _c("div", [_c("h3", [_vm._v("Informacion")])]),
             _vm._v(" "),
             _c("div", [
               _c("a", { attrs: { href: "#" } }, [
@@ -1772,7 +1772,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "panel-redes" }, [
             _c("div", { staticClass: "panel-icons" }, [
               _c("div", { staticClass: "title" }, [
-                _c("h4", { staticClass: "d-flex justify-content-center" }, [
+                _c("h3", { staticClass: "d-flex justify-content-center" }, [
                   _vm._v("Comunidad")
                 ])
               ]),
@@ -1830,26 +1830,11 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    [
-      _c("menu-component"),
-      _vm._v(" "),
-      _vm._m(0),
-      _vm._v(" "),
-      _c("footer-component")
-    ],
+    [_c("menu-component"), _vm._v(" "), _c("footer-component")],
     1
   )
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("p", { staticClass: "prueba" }, [_vm._v(" compoentenneeee home")])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 

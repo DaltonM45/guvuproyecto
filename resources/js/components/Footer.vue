@@ -4,7 +4,7 @@
         <div class="sub-foot">
             <div class="panel-guvu">
                     <div>
-                       <h4>Conocenos</h4>
+                       <h3>Conocenos</h3>
                     </div>
                     <div>
                         <a href="#">Lorem, ipsum dolor sit amet</a>
@@ -21,7 +21,7 @@
             </div>
             <div class="panel-medio">
                     <div>
-                       <h4>Informacion</h4>
+                       <h3>Informacion</h3>
                     </div>
                     <div>
                         <a href="#">Lorem, ipsum dolor sit amet</a>
@@ -39,7 +39,7 @@
             <div class="panel-redes">
                 <div class="panel-icons">
                         <div class="title">
-                            <h4 class="d-flex justify-content-center">Comunidad</h4>
+                            <h3 class="d-flex justify-content-center">Comunidad</h3>
                         </div>
                         <div class="sub-panel-icons">
                             <div>
@@ -72,8 +72,12 @@ export default {
 <style scoped>
 
 @font-face {
-    font-family:"Ranga";
-    src: url('/fonts/Ranga-Bold.ttf');
+    font-family:"roboto";
+    src: url('/fonts/Roboto-Regular.ttf');
+}
+@font-face {
+    font-family:"AsapSemibold";
+    src: url('/fonts/Asap-SemiBold.ttf');
 }
 .footer{
    /* background-color: #2D3047; */
@@ -83,6 +87,7 @@ export default {
    justify-content: center;
    padding-top: 30px;
    padding-bottom: 32px;
+   font-family: "AsapSemibold";
 }
 
 .sub-foot{
@@ -91,8 +96,14 @@ export default {
     justify-content: space-around;
 }
 
-.sub-foot .panel-guvu{
-    /* font-size: 22px; */
+.sub-foot .panel-guvu a{
+      font-family: "roboto";
+      text-decoration: none;
+      color: #ccc;
+}
+
+.sub-foot .panel-guvu a:hover{
+      color: #fff;
 }
 .panel-guvu {
     /* width: 40%; */
@@ -100,6 +111,17 @@ export default {
     align-items: center;
     justify-content: center; */
     /* font-size: 100px; */
+}
+
+/* Panel medio */
+
+.panel-medio a{
+    font-family: "roboto";
+    text-decoration: none;
+     color: #ccc;
+}
+.panel-medio a:hover{
+    color: #fff;
 }
 
 /* panel redes */
@@ -146,6 +168,7 @@ export default {
     color: #fff;
     padding-top: 8px;
     padding-bottom: 8px;
+    font-family: "roboto";
 }
 .copyright p{
     margin: 0px;

@@ -1,10 +1,10 @@
 <template>
 <div>
     <menu-component> </menu-component>
-    <div>
+    <!-- <div>
         <p class="prueba"> compoentenneeee home</p>
        
-    </div>
+    </div> -->
 
 
 
