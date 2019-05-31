@@ -4,37 +4,55 @@
         <div class="sub-foot">
             <div class="panel-guvu">
                     <div>
-                        <p class="gv">GUVU</p>
+                       <h4>Conocenos</h4>
+                    </div>
+                    <div>
+                        <a href="#">Lorem, ipsum dolor sit amet</a>
+                    </div>
+                    <div>
+                        <a href="#">Lorem, ipsum dolor sit amet</a>
+                    </div>
+                    <div>
+                        <a href="#">Lorem, ipsum dolor sit amet</a>
+                    </div>
+                    <div>
+                        <a href="#">Lorem, ipsum dolor sit amet</a>
+                    </div>
+            </div>
+            <div class="panel-medio">
+                    <div>
+                       <h4>Informacion</h4>
+                    </div>
+                    <div>
+                        <a href="#">Lorem, ipsum dolor sit amet</a>
+                    </div>
+                    <div>
+                        <a href="#">Lorem, ipsum dolor sit amet</a>
+                    </div>
+                    <div>
+                        <a href="#">Lorem, ipsum dolor sit amet</a>
+                    </div>
+                    <div>
+                        <a href="#">Lorem, ipsum dolor sit amet</a>
                     </div>
             </div>
             <div class="panel-redes">
-                <div>
-                    <p class="title">Lorem ipsum dolor sit amet.</p>
-                    <div>
-                        <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Aspernatur ipsum repudiandae debitis facere nemo corrupti 
-                        possimus quisquam vel alias minus.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Aspernatur ipsum repudiandae debitis facere nemo corrupti 
-                        possimus quisquam vel alias minus.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Aspernatur ipsum repudiandae debitis fa</p>
-                    </div>
-                </div>
                 <div class="panel-icons">
-           
-                        <div>
-                            <a href="#" class="facebook"><i class="fab fa-facebook-square"></i></a>
+                        <div class="title">
+                            <h4 class="d-flex justify-content-center">Comunidad</h4>
                         </div>
-                        <div>
-                            <a href="#" class="instagram">  <i class="fab fa-instagram"></i></a>
-                        
+                        <div class="sub-panel-icons">
+                            <div>
+                                <a href="#" class="facebook"><i class="fab fa-facebook-square"></i></a>
+                            </div>
+                            <div>
+                                <a href="#" class="instagram">  <i class="fab fa-instagram"></i></a>
+                            
+                            </div>
+                            <div>
+                                <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
+                            </div> 
                         </div>
-                        <div>
-                            <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
-                        </div> 
-                   
                 </div>
             </div>
         </div>
@@ -63,51 +81,40 @@ export default {
    color: #fff;
    display: flex;
    justify-content: center;
-   padding-top: 18px;
+   padding-top: 30px;
    padding-bottom: 32px;
 }
 
 .sub-foot{
     width: 90%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-.sub-foot .panel-guvu p {
-    font-size: 48px;
+.sub-foot .panel-guvu{
+    /* font-size: 22px; */
 }
 .panel-guvu {
-    width: 40%;
-
-}
-.panel-guvu {
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     font-size: 100px;
-}
-.panel-guvu .gv{
-    
+    /* width: 40%; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* font-size: 100px; */
 }
 
 /* panel redes */
-
 .panel-redes {
-   width: 60%;
+   /* width: 60%; */
    padding-left: 18px;
    padding-right: 18px;
 }
-.panel-redes .title{
-   font-size: 22px;
+.panel-redes .panel-icons .title{
+    margin-bottom: 20px;
 }
-
-.panel-redes .panel-icons{
-    margin-top: 26px;
-    display: flex;
-    justify-content: center;
+.panel-redes .panel-icons .sub-panel-icons{
+      display: flex;
+      justify-content: center;
 }
-
-
 .panel-redes .panel-icons a {
     color: #fff;
     width: 80px;
@@ -129,11 +136,11 @@ export default {
 .panel-redes .panel-icons .youtube:hover {
     background: #cd201f;
 }
-
 .fa-facebook-square{
     /* color:#3B5998 ; */
 }
 
+/* Panel COPYRIGH */
 .copyright{
     background-color: #283a4b;
     color: #fff;
