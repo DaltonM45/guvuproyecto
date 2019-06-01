@@ -89,32 +89,21 @@ export default {
    padding-bottom: 32px;
    font-family: "AsapSemibold";
 }
-
 .sub-foot{
     width: 90%;
     display: flex;
     justify-content: space-around;
 }
-
+/* PANEL GUVU */
 .sub-foot .panel-guvu a{
       font-family: "roboto";
       text-decoration: none;
       color: #ccc;
 }
-
 .sub-foot .panel-guvu a:hover{
       color: #fff;
 }
-.panel-guvu {
-    /* width: 40%; */
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-    /* font-size: 100px; */
-}
-
-/* Panel medio */
-
+/* PANEL MEDIO */
 .panel-medio a{
     font-family: "roboto";
     text-decoration: none;
@@ -123,8 +112,7 @@ export default {
 .panel-medio a:hover{
     color: #fff;
 }
-
-/* panel redes */
+/* PANEL REDES */
 .panel-redes {
    /* width: 60%; */
    padding-left: 18px;
@@ -158,10 +146,6 @@ export default {
 .panel-redes .panel-icons .youtube:hover {
     background: #cd201f;
 }
-.fa-facebook-square{
-    /* color:#3B5998 ; */
-}
-
 /* Panel COPYRIGH */
 .copyright{
     background-color: #283a4b;

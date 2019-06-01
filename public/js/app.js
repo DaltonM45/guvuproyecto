@@ -295,6 +295,32 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -338,6 +364,34 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -354,7 +408,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n@font-face {\r\n    font-family:\"roboto\";\r\n    src: url('/fonts/Roboto-Regular.ttf');\n}\n@font-face {\r\n    font-family:\"AsapSemibold\";\r\n    src: url('/fonts/Asap-SemiBold.ttf');\n}\n.footer[data-v-61a7c374]{\r\n   /* background-color: #2D3047; */\r\n   background-color: #1e2b38;\r\n   color: #fff;\r\n   display: flex;\r\n   justify-content: center;\r\n   padding-top: 30px;\r\n   padding-bottom: 32px;\r\n   font-family: \"AsapSemibold\";\n}\n.sub-foot[data-v-61a7c374]{\r\n    width: 90%;\r\n    display: flex;\r\n    justify-content: space-around;\n}\n.sub-foot .panel-guvu a[data-v-61a7c374]{\r\n      font-family: \"roboto\";\r\n      text-decoration: none;\r\n      color: #ccc;\n}\n.sub-foot .panel-guvu a[data-v-61a7c374]:hover{\r\n      color: #fff;\n}\n.panel-guvu[data-v-61a7c374] {\r\n    /* width: 40%; */\r\n    /* display: flex;\r\n    align-items: center;\r\n    justify-content: center; */\r\n    /* font-size: 100px; */\n}\r\n\r\n/* Panel medio */\n.panel-medio a[data-v-61a7c374]{\r\n    font-family: \"roboto\";\r\n    text-decoration: none;\r\n     color: #ccc;\n}\n.panel-medio a[data-v-61a7c374]:hover{\r\n    color: #fff;\n}\r\n\r\n/* panel redes */\n.panel-redes[data-v-61a7c374] {\r\n   /* width: 60%; */\r\n   padding-left: 18px;\r\n   padding-right: 18px;\n}\n.panel-redes .panel-icons .title[data-v-61a7c374]{\r\n    margin-bottom: 20px;\n}\n.panel-redes .panel-icons .sub-panel-icons[data-v-61a7c374]{\r\n      display: flex;\r\n      justify-content: center;\n}\n.panel-redes .panel-icons a[data-v-61a7c374] {\r\n    color: #fff;\r\n    width: 80px;\r\n    padding: 8px 0;\r\n    border-radius: 3px;\r\n    font-size: 38px;\r\n    margin: 0 20px;\r\n    text-align: center;\r\n    display: block;\r\n    background: #17202a;\n}\n.panel-redes .panel-icons .facebook[data-v-61a7c374]:hover {\r\n    background: #3b5998;\n}\n.panel-redes .panel-icons .instagram[data-v-61a7c374]:hover {\r\n     background: #3f729b;\n}\n.panel-redes .panel-icons .youtube[data-v-61a7c374]:hover {\r\n    background: #cd201f;\n}\n.fa-facebook-square[data-v-61a7c374]{\r\n    /* color:#3B5998 ; */\n}\r\n\r\n/* Panel COPYRIGH */\n.copyright[data-v-61a7c374]{\r\n    background-color: #283a4b;\r\n    color: #fff;\r\n    padding-top: 8px;\r\n    padding-bottom: 8px;\r\n    font-family: \"roboto\";\n}\n.copyright p[data-v-61a7c374]{\r\n    margin: 0px;\n}\r\n\r\n", ""]);
+exports.push([module.i, "\n@font-face {\r\n    font-family:\"roboto\";\r\n    src: url('/fonts/Roboto-Regular.ttf');\n}\n@font-face {\r\n    font-family:\"AsapSemibold\";\r\n    src: url('/fonts/Asap-SemiBold.ttf');\n}\n.footer[data-v-61a7c374]{\r\n   /* background-color: #2D3047; */\r\n   background-color: #1e2b38;\r\n   color: #fff;\r\n   display: flex;\r\n   justify-content: center;\r\n   padding-top: 30px;\r\n   padding-bottom: 32px;\r\n   font-family: \"AsapSemibold\";\n}\n.sub-foot[data-v-61a7c374]{\r\n    width: 90%;\r\n    display: flex;\r\n    justify-content: space-around;\n}\r\n/* PANEL GUVU */\n.sub-foot .panel-guvu a[data-v-61a7c374]{\r\n      font-family: \"roboto\";\r\n      text-decoration: none;\r\n      color: #ccc;\n}\n.sub-foot .panel-guvu a[data-v-61a7c374]:hover{\r\n      color: #fff;\n}\r\n/* PANEL MEDIO */\n.panel-medio a[data-v-61a7c374]{\r\n    font-family: \"roboto\";\r\n    text-decoration: none;\r\n     color: #ccc;\n}\n.panel-medio a[data-v-61a7c374]:hover{\r\n    color: #fff;\n}\r\n/* PANEL REDES */\n.panel-redes[data-v-61a7c374] {\r\n   /* width: 60%; */\r\n   padding-left: 18px;\r\n   padding-right: 18px;\n}\n.panel-redes .panel-icons .title[data-v-61a7c374]{\r\n    margin-bottom: 20px;\n}\n.panel-redes .panel-icons .sub-panel-icons[data-v-61a7c374]{\r\n      display: flex;\r\n      justify-content: center;\n}\n.panel-redes .panel-icons a[data-v-61a7c374] {\r\n    color: #fff;\r\n    width: 80px;\r\n    padding: 8px 0;\r\n    border-radius: 3px;\r\n    font-size: 38px;\r\n    margin: 0 20px;\r\n    text-align: center;\r\n    display: block;\r\n    background: #17202a;\n}\n.panel-redes .panel-icons .facebook[data-v-61a7c374]:hover {\r\n    background: #3b5998;\n}\n.panel-redes .panel-icons .instagram[data-v-61a7c374]:hover {\r\n     background: #3f729b;\n}\n.panel-redes .panel-icons .youtube[data-v-61a7c374]:hover {\r\n    background: #cd201f;\n}\r\n/* Panel COPYRIGH */\n.copyright[data-v-61a7c374]{\r\n    background-color: #283a4b;\r\n    color: #fff;\r\n    padding-top: 8px;\r\n    padding-bottom: 8px;\r\n    font-family: \"roboto\";\n}\n.copyright p[data-v-61a7c374]{\r\n    margin: 0px;\n}\r\n\r\n", ""]);
 
 // exports
 
@@ -392,7 +446,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.menu[data-v-7fa2c4ca]{\r\n    list-style: none;\r\n    padding: 0;\r\n    background: #09232738;\r\n    width: 100%;\n}\n.menu li[data-v-7fa2c4ca]  {\r\n    cursor: pointer;\r\n    color: #fff;\r\n    text-decoration: none;\r\n    display: block;\r\n    padding: 20px;\n}\n.menu li[data-v-7fa2c4ca]:hover{\r\n    background: #ef8354;\n}\n.menu li[data-v-7fa2c4ca]{\r\n display: inline-block;\r\n text-align: center;\n}\r\n\r\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n/* \r\n.menu{\r\n    list-style: none;\r\n    padding: 0;\r\n    background: #09232738;\r\n    width: 100%;\r\n}\r\n.menu li  {\r\n    cursor: pointer;\r\n    color: #fff;\r\n    text-decoration: none;\r\n    display: block;\r\n    padding: 20px;\r\n}\r\n.menu li:hover{\r\n    background: #ef8354;\r\n}\r\n.menu li{\r\n display: inline-block;\r\n text-align: center;\r\n\r\n} */\n@font-face {\r\n    font-family:\"roboto\";\r\n    src: url('/fonts/Roboto-Regular.ttf');\n}\n@font-face {\r\n    font-family:\"AsapSemibold\";\r\n    src: url('/fonts/Asap-SemiBold.ttf');\n}\n.menu[data-v-7fa2c4ca]{\r\n    font-family:\"roboto\";\r\n    background-color: aqua;\r\n    padding:15px;\n}\n.sub-menu[data-v-7fa2c4ca]{\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\n}\n.sub-menu .guvu-tit p[data-v-7fa2c4ca]{\r\n    margin-bottom: 0px;\r\n    font-size: 24px;\n}\n.sub-menu .opciones[data-v-7fa2c4ca]{\r\n    display: flex;\r\n    font-size: 18px;\r\n  \r\n    /* justify-content: space-between; */\n}\n.sub-menu .opciones .op[data-v-7fa2c4ca]{\r\n    margin-right: 16px;\r\n      display: flex;\r\n   justify-content: center;\n}\n.sub-menu .opciones p[data-v-7fa2c4ca]{\r\n    margin-bottom: 0px;\n}\r\n", ""]);
 
 // exports
 
@@ -1830,7 +1884,65 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    [_c("menu-component"), _vm._v(" "), _c("footer-component")],
+    [
+      _c("menu-component"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("br"),
+      _vm._v(" "),
+      _c("footer-component")
+    ],
     1
   )
 }
@@ -1880,33 +1992,36 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
-    _c("ul", { staticClass: "menu" }, [
-      _c(
-        "li",
-        [_c("router-link", { attrs: { to: "/" } }, [_vm._v("Inicio")])],
-        1
-      ),
-      _vm._v(" "),
-      _c(
-        "li",
-        [
-          _c("router-link", { attrs: { to: "/contactos" } }, [
-            _vm._v("Contactos")
-          ])
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c(
-        "li",
-        [_c("router-link", { attrs: { to: "/about" } }, [_vm._v("Acerca de")])],
-        1
-      )
-    ])
-  ])
+  return _vm._m(0)
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("div", { staticClass: "menu" }, [
+        _c("div", { staticClass: "sub-menu" }, [
+          _c("div", { staticClass: "guvu-tit" }, [_c("p", [_vm._v("guvu")])]),
+          _vm._v(" "),
+          _c("div", { staticClass: "opciones" }, [
+            _c("div", { staticClass: "op" }, [_c("p", [_vm._v("home")])]),
+            _vm._v(" "),
+            _c("div", { staticClass: "op" }, [_c("p", [_vm._v("Contactos")])]),
+            _vm._v(" "),
+            _c("div", { staticClass: "op" }, [_c("p", [_vm._v("Acerca de")])]),
+            _vm._v(" "),
+            _c("div", { staticClass: "op" }, [_c("p", [_vm._v("Acerca de")])]),
+            _vm._v(" "),
+            _c("div", { staticClass: "op" }, [
+              _c("p", [_vm._v("iniciar sesion")])
+            ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
