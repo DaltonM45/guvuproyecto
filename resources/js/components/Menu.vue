@@ -8,13 +8,15 @@
         </ul>-->
         <div class="menu">
             <div class="sub-menu">
-                <div class="guvu-tit">
-                    <p>guvu</p>
+                <div class="head-min">
+                    <div class="guvu-tit">
+                        <p>GUVU</p>
+                    </div>
+                    <div class="toggle-menu"><i class="fas fa-bars"></i></div>
                 </div>
-
                 <div class="opciones">
                     <div class="op">
-                        <p>home</p>
+                        <p>inicio</p>
                     </div>
                     <div class="op">
                         <p>Contactos</p>
@@ -44,28 +46,7 @@ export default {
 </script>
 
 <style scoped>
-/* 
-.menu{
-    list-style: none;
-    padding: 0;
-    background: #09232738;
-    width: 100%;
-}
-.menu li  {
-    cursor: pointer;
-    color: #fff;
-    text-decoration: none;
-    display: block;
-    padding: 20px;
-}
-.menu li:hover{
-    background: #ef8354;
-}
-.menu li{
- display: inline-block;
- text-align: center;
 
-} */
 @font-face {
     font-family:"roboto";
     src: url('/fonts/Roboto-Regular.ttf');
@@ -77,8 +58,19 @@ export default {
 
 .menu{
     font-family:"roboto";
-    background-color: aqua;
+    background-color: #fff;
+    /* box-shadow: 0 2px 5px rbga(0,0,0, .2); */
+       box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
     padding:15px;
+    /* margin: auto;
+    margin-top: 20px;
+    max-width: 1200px; */
+    border-radius: 6px;
+     position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
 }
 
 .sub-menu{
@@ -86,22 +78,63 @@ export default {
     justify-content: space-between;
     align-items: center;
 }
+.sub-menu .toggle-menu{
+    display: none;
+}
 .sub-menu .guvu-tit p{
+     font-family:"AsapSemibold";
     margin-bottom: 0px;
     font-size: 24px;
+    margin-left: 12px;
+    /* line-height: 60px; */
 }
 .sub-menu .opciones{
     display: flex;
-    font-size: 18px;
-  
+    font-size: 14px;
     /* justify-content: space-between; */
 }
 .sub-menu .opciones .op{
-    margin-right: 16px;
-      display: flex;
-   justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    display: flex;
+    cursor: pointer;
+    /* justify-content: center; */
+}
+.sub-menu .opciones .op:hover{
+    background: #069370;
+    color: #fff;
+    transition: 0.5s;
 }
 .sub-menu .opciones p{
     margin-bottom: 0px;
 }
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 870px){
+
+    .sub-menu{
+        display: block;
+ 
+    }
+    .sub-menu .head-min {
+       display: flex;
+       justify-content: space-between;
+     }
+    .sub-menu .head-min .toggle-menu{
+        display: block;
+     }
+    .sub-menu .opciones{
+        display: flex;
+          /* align-items: center; */
+        flex-direction: column;
+        
+    }
+
+
+
+
+}
+
 </style>

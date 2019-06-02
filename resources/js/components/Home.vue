@@ -12,6 +12,47 @@
        
         <br>
          <br>
+          <br>
+       
+        <br>
+         <br>
+          <br>
+       
+        <br>
+         <br>
+          <br>
+       
+        <br>
+         <br>
+          <br>
+       
+        <br>
+         <br>
+          <br>
+       
+        <br>
+         <br>
+          <br>
+       
+        <br>
+         <br>
+
+          <br>
+       
+        <br>
+         <br> <br>
+       
+        <br>
+         <br>
+          <br>
+       
+        <br>
+         <br>
+          <br>
+       
+        <br>
+         <br>
+
 
 
     <footer-component> </footer-component>
@@ -27,8 +68,6 @@ export default {
 
 <style scoped>
 
-.prueba{
-    background: rgba(13, 194, 124, 0.867)
-}
+
 
 </style>
