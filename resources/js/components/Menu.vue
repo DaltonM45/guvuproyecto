@@ -16,8 +16,8 @@
                        <i class="fas fa-bars barra" v-on:click="abrirMenu()"></i>
                     </div>
                 </div>
-                <!-- <div class="opciones" v-bind:class="{showmenu: permiso}"> -->
-                <div class="opciones">
+                <div class="opciones" v-bind:class="{showmenu: permiso}">
+                <!-- <div class="opciones"> -->
                     <div class="op">
                         <p>inicio</p>
                     </div>
@@ -115,10 +115,10 @@ export default {
 
 
 .showmenu{
-    /* background: #fa0000; */
-     /* display: flex; 
-    flex-direction: column;   */
-    display: none;
+     background: #fa0000; 
+     display: flex; 
+    flex-direction: column;   
+    /* display: none; */
 }
  
 .sub-menu .toggle-menu{
@@ -202,12 +202,9 @@ export default {
         width: 100%;
        
     }
-    .sub-menu .opciones .op p{
-        text-align: center;
-    }
-    
-     .sub-menu .opciones{
-       display: none;
+ 
+     .sub-menu .opciones {
+         display: none;
     }
 
 }
