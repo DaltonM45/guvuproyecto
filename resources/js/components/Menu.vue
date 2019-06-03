@@ -10,10 +10,13 @@
             <div class="sub-menu">
                 <div class="head-min">
                     <div class="guvu-tit">
-                        <p>GUVU</p>
+                        <p>Guvu</p>
                     </div>
-                    <div class="toggle-menu"><i class="fas fa-bars"></i></div>
+                    <div class="toggle-menu">
+                       <i class="fas fa-bars barra" v-on:click="abrirMenu()"></i>
+                    </div>
                 </div>
+                <!-- <div class="opciones" v-bind:class="{showmenu: permiso}"> -->
                 <div class="opciones">
                     <div class="op">
                         <p>inicio</p>
@@ -31,6 +34,25 @@
                         <p>iniciar sesion</p>
                     </div>
                 </div>
+                <!-- <div class="opciones2" v-show="permiso">
+                    <div class="op">
+                        <p>inicio</p>
+                    </div>
+                    <div class="op">
+                        <p>Contactos</p>
+                    </div>
+                     <div class="op">
+                        <p>Acerca de</p>
+                    </div>
+                    <div class="op">
+                        <p>Acerca de</p>
+                    </div>
+                    <div class="op">
+                        <p>iniciar sesion</p>
+                    </div>
+                </div> -->
+                
+                
             </div>
         </div>
 
@@ -41,6 +63,18 @@
 
 <script>
 export default {
+    data(){
+        return{
+            permiso:false
+        }
+    },
+    methods:{
+        abrirMenu(){
+            console.log("adasd")
+            this.permiso =  !this.permiso;
+            console.log(this.permiso)
+        }
+    }
 
 }
 </script>
@@ -78,9 +112,22 @@ export default {
     justify-content: space-between;
     align-items: center;
 }
+
+
+.showmenu{
+    /* background: #fa0000; */
+     /* display: flex; 
+    flex-direction: column;   */
+    display: none;
+}
+ 
 .sub-menu .toggle-menu{
     display: none;
 }
+
+ .sub-menu .head-min .toggle-menu .barra{
+        font-size: 22px;  
+  }
 .sub-menu .guvu-tit p{
      font-family:"AsapSemibold";
     margin-bottom: 0px;
@@ -93,6 +140,25 @@ export default {
     font-size: 14px;
     /* justify-content: space-between; */
 }
+/* OPCIONES 2 */
+/* .sub-menu .opciones2{ display: none;} */
+.sub-menu .opciones2 .op{
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.sub-menu .opciones2 .op:hover{
+    background: #069370;
+    color: #fff;
+    transition: 0.5s;
+}
+.sub-menu .opciones2 p{
+    margin-bottom: 0px;
+}
+
 .sub-menu .opciones .op{
     margin-right: 10px;
     margin-left: 10px;
@@ -116,25 +182,35 @@ export default {
 
     .sub-menu{
         display: block;
- 
     }
     .sub-menu .head-min {
        display: flex;
+       align-items: center;
        justify-content: space-between;
      }
     .sub-menu .head-min .toggle-menu{
         display: block;
+        cursor: pointer;
      }
     .sub-menu .opciones{
-        display: flex;
-          /* align-items: center; */
+         display: flex;
+         /* align-items: center; */
         flex-direction: column;
-        
+        /* display: none; */
+    }
+    .sub-menu .opciones .op{
+        width: 100%;
+       
+    }
+    .sub-menu .opciones .op p{
+        text-align: center;
+    }
+    
+     .sub-menu .opciones{
+       display: none;
     }
 
-
-
-
 }
+
 
 </style>
