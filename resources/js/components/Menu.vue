@@ -10,14 +10,14 @@
             <div class="sub-menu">
                 <div class="head-min">
                     <div class="guvu-tit">
-                        <p>Guvu</p>
+                        <p>i'm fast</p>
                     </div>
                     <div class="toggle-menu">
                        <i class="fas fa-bars barra" v-on:click="abrirMenu()"></i>
                     </div>
                 </div>
-                <div class="opciones" v-bind:class="{showmenu: permiso}">
-                <!-- <div class="opciones"> -->
+                <!-- <div class="opciones" v-bind:class="{showmenu: permiso}"> -->
+                <div class="opciones" id="cell-menu">
                     <div class="op">
                         <p>inicio</p>
                     </div>
@@ -70,9 +70,14 @@ export default {
     },
     methods:{
         abrirMenu(){
-            console.log("adasd")
             this.permiso =  !this.permiso;
             console.log(this.permiso)
+
+            document.getElementById('cell-menu').style.display = 'block';
+
+            if(this.permiso == false){
+             document.getElementById('cell-menu').style.display = 'none';
+            }
         }
     }
 
@@ -208,6 +213,18 @@ export default {
     }
 
 }
+/* 
+@media screen and (min-width: 871px){
+  .sub-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
+   .sub-menu .opciones {
+          display: flex;
+    font-size: 14px;
+    }
+} */
 
 </style>

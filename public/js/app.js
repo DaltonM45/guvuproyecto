@@ -442,9 +442,13 @@ __webpack_require__.r(__webpack_exports__);
   },
   methods: {
     abrirMenu: function abrirMenu() {
-      console.log("adasd");
       this.permiso = !this.permiso;
       console.log(this.permiso);
+      document.getElementById('cell-menu').style.display = 'block';
+
+      if (this.permiso == false) {
+        document.getElementById('cell-menu').style.display = 'none';
+      }
     }
   }
 });
@@ -482,7 +486,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n@font-face {\r\n    font-family:\"roboto\";\r\n    src: url('/fonts/Roboto-Regular.ttf');\n}\n@font-face {\r\n    font-family:\"AsapSemibold\";\r\n    src: url('/fonts/Asap-SemiBold.ttf');\n}\n.menu[data-v-7fa2c4ca]{\r\n    font-family:\"roboto\";\r\n    background-color: #fff;\r\n    /* box-shadow: 0 2px 5px rbga(0,0,0, .2); */\r\n       box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);\r\n    padding:15px;\r\n    /* margin: auto;\r\n    margin-top: 20px;\r\n    max-width: 1200px; */\r\n    border-radius: 6px;\r\n     position: fixed;\r\n    top: 0;\r\n    right: 0;\r\n    left: 0;\r\n    z-index: 1030;\n}\n.sub-menu[data-v-7fa2c4ca]{\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\n}\n.showmenu[data-v-7fa2c4ca]{\r\n     background: #fa0000; \r\n     display: flex; \r\n    flex-direction: column;   \r\n    /* display: none; */\n}\n.sub-menu .toggle-menu[data-v-7fa2c4ca]{\r\n    display: none;\n}\n.sub-menu .head-min .toggle-menu .barra[data-v-7fa2c4ca]{\r\n        font-size: 22px;\n}\n.sub-menu .guvu-tit p[data-v-7fa2c4ca]{\r\n     font-family:\"AsapSemibold\";\r\n    margin-bottom: 0px;\r\n    font-size: 24px;\r\n    margin-left: 12px;\r\n    /* line-height: 60px; */\n}\n.sub-menu .opciones[data-v-7fa2c4ca]{\r\n    display: flex;\r\n    font-size: 14px;\r\n    /* justify-content: space-between; */\n}\r\n/* OPCIONES 2 */\r\n/* .sub-menu .opciones2{ display: none;} */\n.sub-menu .opciones2 .op[data-v-7fa2c4ca]{\r\n    margin-right: 10px;\r\n    margin-left: 10px;\r\n    padding: 10px 20px;\r\n    display: flex;\r\n    justify-content: center;\r\n    cursor: pointer;\n}\n.sub-menu .opciones2 .op[data-v-7fa2c4ca]:hover{\r\n    background: #069370;\r\n    color: #fff;\r\n    transition: 0.5s;\n}\n.sub-menu .opciones2 p[data-v-7fa2c4ca]{\r\n    margin-bottom: 0px;\n}\n.sub-menu .opciones .op[data-v-7fa2c4ca]{\r\n    margin-right: 10px;\r\n    margin-left: 10px;\r\n    padding: 10px 20px;\r\n    display: flex;\r\n    cursor: pointer;\r\n    /* justify-content: center; */\n}\n.sub-menu .opciones .op[data-v-7fa2c4ca]:hover{\r\n    background: #069370;\r\n    color: #fff;\r\n    transition: 0.5s;\n}\n.sub-menu .opciones p[data-v-7fa2c4ca]{\r\n    margin-bottom: 0px;\n}\r\n\r\n/* RESPONSIVE */\n@media screen and (max-width: 870px){\n.sub-menu[data-v-7fa2c4ca]{\r\n        display: block;\n}\n.sub-menu .head-min[data-v-7fa2c4ca] {\r\n       display: flex;\r\n       align-items: center;\r\n       justify-content: space-between;\n}\n.sub-menu .head-min .toggle-menu[data-v-7fa2c4ca]{\r\n        display: block;\r\n        cursor: pointer;\n}\n.sub-menu .opciones[data-v-7fa2c4ca]{\r\n         display: flex;\r\n         /* align-items: center; */\r\n        flex-direction: column;\r\n        /* display: none; */\n}\n.sub-menu .opciones .op[data-v-7fa2c4ca]{\r\n        width: 100%;\n}\n.sub-menu .opciones[data-v-7fa2c4ca] {\r\n         display: none;\n}\n}\r\n\r\n\r\n", ""]);
+exports.push([module.i, "\n@font-face {\r\n    font-family:\"roboto\";\r\n    src: url('/fonts/Roboto-Regular.ttf');\n}\n@font-face {\r\n    font-family:\"AsapSemibold\";\r\n    src: url('/fonts/Asap-SemiBold.ttf');\n}\n.menu[data-v-7fa2c4ca]{\r\n    font-family:\"roboto\";\r\n    background-color: #fff;\r\n    /* box-shadow: 0 2px 5px rbga(0,0,0, .2); */\r\n       box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);\r\n    padding:15px;\r\n    /* margin: auto;\r\n    margin-top: 20px;\r\n    max-width: 1200px; */\r\n    border-radius: 6px;\r\n     position: fixed;\r\n    top: 0;\r\n    right: 0;\r\n    left: 0;\r\n    z-index: 1030;\n}\n.sub-menu[data-v-7fa2c4ca]{\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\n}\n.showmenu[data-v-7fa2c4ca]{\r\n     background: #fa0000; \r\n     display: flex; \r\n    flex-direction: column;   \r\n    /* display: none; */\n}\n.sub-menu .toggle-menu[data-v-7fa2c4ca]{\r\n    display: none;\n}\n.sub-menu .head-min .toggle-menu .barra[data-v-7fa2c4ca]{\r\n        font-size: 22px;\n}\n.sub-menu .guvu-tit p[data-v-7fa2c4ca]{\r\n     font-family:\"AsapSemibold\";\r\n    margin-bottom: 0px;\r\n    font-size: 24px;\r\n    margin-left: 12px;\r\n    /* line-height: 60px; */\n}\n.sub-menu .opciones[data-v-7fa2c4ca]{\r\n    display: flex;\r\n    font-size: 14px;\r\n    /* justify-content: space-between; */\n}\r\n/* OPCIONES 2 */\r\n/* .sub-menu .opciones2{ display: none;} */\n.sub-menu .opciones2 .op[data-v-7fa2c4ca]{\r\n    margin-right: 10px;\r\n    margin-left: 10px;\r\n    padding: 10px 20px;\r\n    display: flex;\r\n    justify-content: center;\r\n    cursor: pointer;\n}\n.sub-menu .opciones2 .op[data-v-7fa2c4ca]:hover{\r\n    background: #069370;\r\n    color: #fff;\r\n    transition: 0.5s;\n}\n.sub-menu .opciones2 p[data-v-7fa2c4ca]{\r\n    margin-bottom: 0px;\n}\n.sub-menu .opciones .op[data-v-7fa2c4ca]{\r\n    margin-right: 10px;\r\n    margin-left: 10px;\r\n    padding: 10px 20px;\r\n    display: flex;\r\n    cursor: pointer;\r\n    /* justify-content: center; */\n}\n.sub-menu .opciones .op[data-v-7fa2c4ca]:hover{\r\n    background: #069370;\r\n    color: #fff;\r\n    transition: 0.5s;\n}\n.sub-menu .opciones p[data-v-7fa2c4ca]{\r\n    margin-bottom: 0px;\n}\r\n\r\n/* RESPONSIVE */\n@media screen and (max-width: 870px){\n.sub-menu[data-v-7fa2c4ca]{\r\n        display: block;\n}\n.sub-menu .head-min[data-v-7fa2c4ca] {\r\n       display: flex;\r\n       align-items: center;\r\n       justify-content: space-between;\n}\n.sub-menu .head-min .toggle-menu[data-v-7fa2c4ca]{\r\n        display: block;\r\n        cursor: pointer;\n}\n.sub-menu .opciones[data-v-7fa2c4ca]{\r\n         display: flex;\r\n         /* align-items: center; */\r\n        flex-direction: column;\r\n        /* display: none; */\n}\n.sub-menu .opciones .op[data-v-7fa2c4ca]{\r\n        width: 100%;\n}\n.sub-menu .opciones[data-v-7fa2c4ca] {\r\n         display: none;\n}\n}\r\n/* \r\n@media screen and (min-width: 871px){\r\n  .sub-menu{\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n  }\r\n\r\n   .sub-menu .opciones {\r\n          display: flex;\r\n    font-size: 14px;\r\n    }\r\n} */\r\n\r\n", ""]);
 
 // exports
 
@@ -2028,21 +2032,7 @@ var render = function() {
           ])
         ]),
         _vm._v(" "),
-        _c(
-          "div",
-          { staticClass: "opciones", class: { showmenu: _vm.permiso } },
-          [
-            _vm._m(1),
-            _vm._v(" "),
-            _vm._m(2),
-            _vm._v(" "),
-            _vm._m(3),
-            _vm._v(" "),
-            _vm._m(4),
-            _vm._v(" "),
-            _vm._m(5)
-          ]
-        )
+        _vm._m(1)
       ])
     ])
   ])
@@ -2052,38 +2042,24 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "guvu-tit" }, [_c("p", [_vm._v("Guvu")])])
+    return _c("div", { staticClass: "guvu-tit" }, [
+      _c("p", [_vm._v("i'm fast")])
+    ])
   },
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "op" }, [_c("p", [_vm._v("inicio")])])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "op" }, [_c("p", [_vm._v("Contactos")])])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "op" }, [_c("p", [_vm._v("Acerca de")])])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "op" }, [_c("p", [_vm._v("Acerca de")])])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "op" }, [
-      _c("p", [_vm._v("iniciar sesion")])
+    return _c("div", { staticClass: "opciones", attrs: { id: "cell-menu" } }, [
+      _c("div", { staticClass: "op" }, [_c("p", [_vm._v("inicio")])]),
+      _vm._v(" "),
+      _c("div", { staticClass: "op" }, [_c("p", [_vm._v("Contactos")])]),
+      _vm._v(" "),
+      _c("div", { staticClass: "op" }, [_c("p", [_vm._v("Acerca de")])]),
+      _vm._v(" "),
+      _c("div", { staticClass: "op" }, [_c("p", [_vm._v("Acerca de")])]),
+      _vm._v(" "),
+      _c("div", { staticClass: "op" }, [_c("p", [_vm._v("iniciar sesion")])])
     ])
   }
 ]
