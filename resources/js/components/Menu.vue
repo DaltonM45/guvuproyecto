@@ -10,10 +10,12 @@
             <div class="sub-menu">
                 <div class="head-min">
                     <div class="guvu-tit">
-                        <p>i'm fast</p>
+                        <p>Guvu</p>
                     </div>
                     <div class="toggle-menu">
-                       <i class="fas fa-bars barra" v-on:click="abrirMenu()"></i>
+                       <input type="checkbox" id="menu-btn" class="menu-btn">
+                       <i class="fas fa-bars barra"  for="menu-btn"></i>
+                       
                     </div>
                 </div>
                 <!-- <div class="opciones" v-bind:class="{showmenu: permiso}"> -->
@@ -73,11 +75,8 @@ export default {
             this.permiso =  !this.permiso;
             console.log(this.permiso)
 
-            document.getElementById('cell-menu').style.display = 'block';
+         
 
-            if(this.permiso == false){
-             document.getElementById('cell-menu').style.display = 'none';
-            }
         }
     }
 
@@ -112,6 +111,12 @@ export default {
     z-index: 1030;
 }
 
+/* #menu-btn:checked ~ .opciones {
+   max-height: 240px;
+   display: flex;
+   flex-direction: column;
+} */
+
 .sub-menu{
     display: flex;
     justify-content: space-between;
@@ -128,6 +133,13 @@ export default {
  
 .sub-menu .toggle-menu{
     display: none;
+}
+
+.sub-menu .toggle-menu .menu-btn:checked ~ .opciones {
+   /* max-height: 240px;
+   display: flex;
+   flex-direction: column; */
+   background: #fa0000;
 }
 
  .sub-menu .head-min .toggle-menu .barra{
@@ -198,33 +210,16 @@ export default {
         cursor: pointer;
      }
     .sub-menu .opciones{
-         display: flex;
-         /* align-items: center; */
-        flex-direction: column;
-        /* display: none; */
+    
+      
+      
+   
     }
-    .sub-menu .opciones .op{
-        width: 100%;
-       
-    }
- 
-     .sub-menu .opciones {
-         display: none;
-    }
+    
+
+   
 
 }
-/* 
-@media screen and (min-width: 871px){
-  .sub-menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
 
-   .sub-menu .opciones {
-          display: flex;
-    font-size: 14px;
-    }
-} */
 
 </style>
