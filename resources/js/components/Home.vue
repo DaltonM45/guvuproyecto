@@ -94,7 +94,7 @@ export default {
 
 <style scoped>
 img.d-block {
-  height: 35px;
+  height: 350px;
   width: 100%;
 }
 
