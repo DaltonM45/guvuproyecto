@@ -122,7 +122,7 @@ export default {
 
 .showmenu{
      background: #fa0000; 
-     display: flex; 
+     display: block; 
     flex-direction: column;   
     /* display: none; */
 }
