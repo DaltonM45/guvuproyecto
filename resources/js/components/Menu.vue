@@ -5,8 +5,8 @@
             <li><router-link to="/contactos">Contactos</router-link></li>
             <li><router-link to="/about">Acerca de</router-link></li>
              <li> <p @click="$router.push('/sesion')">iniciar sesion</p></li> 
-        </ul>-->
-        <div class="menu">
+        </ul> -->
+       <div class="menu">
             <div class="sub-menu">
                 <div class="head-min">
                     <div class="guvu-tit">
@@ -17,8 +17,7 @@
                       <i class="fas fa-bars barra" v-on:click="abrirMenu()"></i>
                     </div>
                 </div>
-                <div class="opciones" v-bind:class="{showmenu: permiso}">
-                <!-- <div class="opciones"> -->
+                <div class="opciones" v-show="permiso"> 
                     <div class="op">
                         <p>inicio</p>
                     </div>
@@ -33,9 +32,9 @@
                     </div>
                     <div class="op">
                         <p>iniciar sesion</p>
-                    </div>
+                    </div> 
                 </div>
-                <!-- <div class="opciones2" v-show="permiso">
+                <div class="opciones2" v-show="!permiso"> 
                     <div class="op">
                         <p>inicio</p>
                     </div>
@@ -50,16 +49,14 @@
                     </div>
                     <div class="op">
                         <p>iniciar sesion</p>
-                    </div>
-                </div> -->
-                
-                
+                    </div> 
+                </div>
             </div>
-        </div>
-
+        </div> 
 
 
     </div>
+  
 </template>
 
 <script>
@@ -96,12 +93,8 @@ export default {
 .menu{
     font-family:"roboto";
     background-color: #fff;
-    /* box-shadow: 0 2px 5px rbga(0,0,0, .2); */
     box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
     padding:15px;
-    /* margin: auto;
-    margin-top: 20px;
-    max-width: 1200px; */
     border-radius: 6px;
      position: fixed;
     top: 0;
@@ -124,7 +117,7 @@ export default {
      background: #fa0000; 
      display: block; 
     flex-direction: column;   
-    /* display: none; */
+  
 }
  
 .sub-menu .toggle-menu{
@@ -140,20 +133,19 @@ export default {
     margin-bottom: 0px;
     font-size: 24px;
     margin-left: 12px;
-    /* line-height: 60px; */
 }
+
 .sub-menu .opciones{
     display: flex;
     font-size: 14px;
 }
-
 .sub-menu .opciones .op{
     margin-right: 10px;
     margin-left: 10px;
     padding: 10px 20px;
     display: flex;
     cursor: pointer;
-    /* justify-content: center; */
+   
 }
 .sub-menu .opciones .op:hover{
     background: #069370;
@@ -161,6 +153,28 @@ export default {
     transition: 0.5s;
 }
 .sub-menu .opciones p{
+    margin-bottom: 0px;
+}
+
+/* OPCIONES 2 */
+.sub-menu .opciones2{
+    display: flex;
+    font-size: 14px;
+}
+.sub-menu .opciones2 .op{
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    display: flex;
+    cursor: pointer;
+   
+}
+.sub-menu .opciones2 .op:hover{
+    background: #069370;
+    color: #fff;
+    transition: 0.5s;
+}
+.sub-menu .opciones2 p{
     margin-bottom: 0px;
 }
 
@@ -181,17 +195,23 @@ export default {
         cursor: pointer;
      }
     .sub-menu .opciones{
-        /* flex-direction: column;  */
-        /* max-height: 0; */
-        /* position: absolute; */
-        display: none;
+      flex-direction: column;
+      
+      
+    }
+    .sub-menu .opciones .op{
+        text-align: center;
     }
  
-
+    .sub-menu .opciones2{
+        display: none;
+    }
 
    
 
 }
+
+
 
 
 </style>
