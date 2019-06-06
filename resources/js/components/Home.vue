@@ -1,10 +1,35 @@
 <template>
 <div>
     <menu-component> </menu-component>
-    <!-- <div>
-        <p class="prueba"> compoentenneeee home</p>
-       
-    </div> -->
+
+
+<!-- Inicio del carrousel  -->
+  
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block" src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg"
+        alt="First slide">
+    </div>
+    <div id="carouselExampleFade2" class="carousel-item">
+      <img class="d-block" src="https://mdbootstrap.com/img/Photos/Slides/img%20(16).jpg"
+        alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block" src="https://mdbootstrap.com/img/Photos/Slides/img%20(17).jpg"
+        alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!-- Figot pulln del Carrousel  -->
 
 
 
@@ -57,6 +82,7 @@
 
     <footer-component> </footer-component>
 </div>
+
 </template>
 
 
@@ -67,7 +93,9 @@ export default {
 </script>
 
 <style scoped>
-
-
+img.d-block {
+  height: 351px;
+  width: 100%;
+}
 
 </style>
