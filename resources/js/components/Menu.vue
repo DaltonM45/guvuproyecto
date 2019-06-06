@@ -12,14 +12,13 @@
                     <div class="guvu-tit">
                         <p>Guvu</p>
                     </div>
+                
                     <div class="toggle-menu">
-                       <input type="checkbox" id="menu-btn" class="menu-btn">
-                       <i class="fas fa-bars barra"  for="menu-btn"></i>
-                       
+                      <i class="fas fa-bars barra" v-on:click="abrirMenu()"></i>
                     </div>
                 </div>
-                <!-- <div class="opciones" v-bind:class="{showmenu: permiso}"> -->
-                <div class="opciones" id="cell-menu">
+                <div class="opciones" v-bind:class="{showmenu: permiso}">
+                <!-- <div class="opciones"> -->
                     <div class="op">
                         <p>inicio</p>
                     </div>
@@ -98,7 +97,7 @@ export default {
     font-family:"roboto";
     background-color: #fff;
     /* box-shadow: 0 2px 5px rbga(0,0,0, .2); */
-       box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
     padding:15px;
     /* margin: auto;
     margin-top: 20px;
@@ -110,12 +109,9 @@ export default {
     left: 0;
     z-index: 1030;
 }
-
-/* #menu-btn:checked ~ .opciones {
-   max-height: 240px;
-   display: flex;
-   flex-direction: column;
-} */
+#botoncheck {
+    display: none;
+}
 
 .sub-menu{
     display: flex;
@@ -135,12 +131,6 @@ export default {
     display: none;
 }
 
-.sub-menu .toggle-menu .menu-btn:checked ~ .opciones {
-   /* max-height: 240px;
-   display: flex;
-   flex-direction: column; */
-   background: #fa0000;
-}
 
  .sub-menu .head-min .toggle-menu .barra{
         font-size: 22px;  
@@ -155,25 +145,6 @@ export default {
 .sub-menu .opciones{
     display: flex;
     font-size: 14px;
-    /* justify-content: space-between; */
-}
-/* OPCIONES 2 */
-/* .sub-menu .opciones2{ display: none;} */
-.sub-menu .opciones2 .op{
-    margin-right: 10px;
-    margin-left: 10px;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: center;
-    cursor: pointer;
-}
-.sub-menu .opciones2 .op:hover{
-    background: #069370;
-    color: #fff;
-    transition: 0.5s;
-}
-.sub-menu .opciones2 p{
-    margin-bottom: 0px;
 }
 
 .sub-menu .opciones .op{
@@ -195,7 +166,7 @@ export default {
 
 /* RESPONSIVE */
 
-@media screen and (max-width: 870px){
+@media (max-width: 870px){
 
     .sub-menu{
         display: block;
@@ -210,12 +181,13 @@ export default {
         cursor: pointer;
      }
     .sub-menu .opciones{
-    
-      
-      
-   
+        /* flex-direction: column;  */
+        /* max-height: 0; */
+        /* position: absolute; */
+        display: none;
     }
-    
+ 
+
 
    
 
