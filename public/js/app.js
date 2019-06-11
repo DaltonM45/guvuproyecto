@@ -365,6 +365,60 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -505,7 +559,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nimg.d-block[data-v-f2b6376c] {\r\n  height: 350px;\r\n  width: 100%;\n}\r\n\r\n", ""]);
+exports.push([module.i, "\nimg.d-block[data-v-f2b6376c] {\r\n  height: 350px;\r\n  width: 100%;\n}\r\n\r\n/* <!-- SORTEOS ACTIVOS --> */\ndiv .center[data-v-f2b6376c] {\r\n  background: rgb(248, 250, 248);\r\n  text-align: center;\n}\ndiv .card[data-v-f2b6376c]{\r\n\r\nmargin-top: 10px;\r\nmargin-bottom: 10px; \r\nwidth: 14rem;\r\nborder: 2px solid rgb(12, 11, 11);\r\nmargin-left: 20\r\npx;\r\nvertical-align: middle;\r\ndisplay: inline-block;\r\nbackground: rgb(238, 231, 231);\n}\n.card-img-top[data-v-f2b6376c]{\r\n  border: 2px solid rgb(11, 12, 11);  \r\n\r\n  width: 11rem;\r\n  margin: 25px;\n}\n.btn-primary[data-v-f2b6376c]{\r\n\r\n  background: black;\r\n  border: black;\n}\r\n\r\n\r\n\r\n/* <!-- /SORTEOS ACTIVOS --> */\r\n", ""]);
 
 // exports
 
@@ -1967,6 +2021,8 @@ var render = function() {
       _vm._v(" "),
       _vm._m(0),
       _vm._v(" "),
+      _vm._m(1),
+      _vm._v(" "),
       _c("br"),
       _vm._v(" "),
       _c("br"),
@@ -2131,6 +2187,112 @@ var staticRenderFns = [
         )
       ]
     )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "center" }, [
+      _c("div", { staticClass: "card" }, [
+        _c("img", {
+          staticClass: "card-img-top",
+          attrs: {
+            src: "https://mcdn.wallpapersafari.com/medium/98/78/BxfMoq.jpg",
+            alt: "Card image cap"
+          }
+        }),
+        _vm._v(" "),
+        _c("div", { staticClass: "card-body" }, [
+          _c("p", { staticClass: "card-text" }, [_vm._v("PS4")]),
+          _vm._v(" "),
+          _c(
+            "button",
+            { staticClass: "btn btn-primary", attrs: { type: "button" } },
+            [_vm._v("Primary")]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "card" }, [
+        _c("img", {
+          staticClass: "card-img-top",
+          attrs: {
+            src: "https://mcdn.wallpapersafari.com/medium/98/78/BxfMoq.jpg",
+            alt: "Card image cap"
+          }
+        }),
+        _vm._v(" "),
+        _c("div", { staticClass: "card-body" }, [
+          _c("p", { staticClass: "card-text" }, [_vm._v("PS4")]),
+          _vm._v(" "),
+          _c(
+            "button",
+            { staticClass: "btn btn-primary", attrs: { type: "button" } },
+            [_vm._v("Primary")]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "card" }, [
+        _c("img", {
+          staticClass: "card-img-top",
+          attrs: {
+            src: "https://mcdn.wallpapersafari.com/medium/98/78/BxfMoq.jpg",
+            alt: "Card image cap"
+          }
+        }),
+        _vm._v(" "),
+        _c("div", { staticClass: "card-body" }, [
+          _c("p", { staticClass: "card-text" }, [_vm._v("PS4")]),
+          _vm._v(" "),
+          _c(
+            "button",
+            { staticClass: "btn btn-primary", attrs: { type: "button" } },
+            [_vm._v("Primary")]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "card" }, [
+        _c("img", {
+          staticClass: "card-img-top",
+          attrs: {
+            src: "https://mcdn.wallpapersafari.com/medium/98/78/BxfMoq.jpg",
+            alt: "Card image cap"
+          }
+        }),
+        _vm._v(" "),
+        _c("div", { staticClass: "card-body" }, [
+          _c("p", { staticClass: "card-text" }, [_vm._v("PS4")]),
+          _vm._v(" "),
+          _c(
+            "button",
+            { staticClass: "btn btn-primary", attrs: { type: "button" } },
+            [_vm._v("Primary")]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "card" }, [
+        _c("img", {
+          staticClass: "card-img-top",
+          attrs: {
+            src: "https://mcdn.wallpapersafari.com/medium/98/78/BxfMoq.jpg",
+            alt: "Card image cap"
+          }
+        }),
+        _vm._v(" "),
+        _c("div", { staticClass: "card-body" }, [
+          _c("p", { staticClass: "card-text" }, [_vm._v("PS4")]),
+          _vm._v(" "),
+          _c(
+            "button",
+            { staticClass: "btn btn-primary", attrs: { type: "button" } },
+            [_vm._v("Primary")]
+          )
+        ])
+      ])
+    ])
   }
 ]
 render._withStripped = true

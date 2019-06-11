@@ -33,6 +33,60 @@
 
 
 
+
+<!-- SORTEOS ACTIVOS -->
+<div class="center">
+
+<div class="card"  style="">
+  <img class="card-img-top" src="https://mcdn.wallpapersafari.com/medium/98/78/BxfMoq.jpg" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text">PS4</p>
+    <button type="button" class="btn btn-primary">Primary</button>
+  </div>
+</div>
+
+
+<div class="card"  style="">
+  <img class="card-img-top" src="https://mcdn.wallpapersafari.com/medium/98/78/BxfMoq.jpg" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text">PS4</p>
+    <button type="button" class="btn btn-primary">Primary</button>
+  </div>
+</div>
+
+<div class="card"  style="">
+  <img class="card-img-top" src="https://mcdn.wallpapersafari.com/medium/98/78/BxfMoq.jpg" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text">PS4</p>
+    <button type="button" class="btn btn-primary">Primary</button>
+  </div>
+</div>
+
+
+<div class="card"  style="">
+  <img class="card-img-top" src="https://mcdn.wallpapersafari.com/medium/98/78/BxfMoq.jpg" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text">PS4</p>
+    <button type="button" class="btn btn-primary">Primary</button>
+  </div>
+</div>
+
+
+
+<div class="card"  style="">
+  <img class="card-img-top" src="https://mcdn.wallpapersafari.com/medium/98/78/BxfMoq.jpg" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text">PS4</p>
+    <button type="button" class="btn btn-primary">Primary</button>
+  </div>
+</div>
+
+
+
+</div>
+<!-- /SORTEOS ACTIVOS -->
+
+
          <br>
        
         <br>
@@ -58,7 +112,7 @@
         <br>
          <br>
           <br>
-       
+       <!--  -->
         <br>
          <br>
 
@@ -98,4 +152,41 @@ img.d-block {
   width: 100%;
 }
 
+/* <!-- SORTEOS ACTIVOS --> */
+div .center {
+  background: rgb(248, 250, 248);
+  text-align: center;
+}
+
+
+div .card{
+
+margin-top: 10px;
+margin-bottom: 10px; 
+width: 14rem;
+border: 2px solid rgb(12, 11, 11);
+margin-left: 20
+px;
+vertical-align: middle;
+display: inline-block;
+background: rgb(238, 231, 231);
+
+}
+
+.card-img-top{
+  border: 2px solid rgb(11, 12, 11);  
+
+  width: 11rem;
+  margin: 25px;
+}
+
+.btn-primary{
+
+  background: black;
+  border: black;
+}
+
+
+
+/* <!-- /SORTEOS ACTIVOS --> */
 </style>
