@@ -10,7 +10,7 @@
             <div class="sub-menu">
                 <div class="head-min">
                     <div class="guvu-tit">
-                        <p>Guvu</p>
+                        <p id="guvu">Guvu</p>
                     </div>
                 
                     <div class="toggle-menu">
@@ -36,19 +36,19 @@
                 </div>
                 <div class="opciones2" v-show="!permiso"> 
                     <div class="op">
-                        <p>inicio</p>
+                        <p>   <b>inicio</b>  </p>
                     </div>
                     <div class="op">
-                        <p>Contactos</p>
+                        <p> <b>Contactos</b> </p>
                     </div>
                      <div class="op">
-                        <p>Acerca de</p>
+                        <p> <b>Acerca de</b> </p>
                     </div>
                     <div class="op">
-                        <p>Acerca de</p>
+                        <p> <b>Acerca de</b> </p>
                     </div>
                     <div class="op">
-                        <p>iniciar sesion</p>
+                        <p> <b>iniciar sesion</b> </p>
                     </div> 
                 </div>
             </div>
@@ -92,7 +92,7 @@ export default {
 
 .menu{
     font-family:"roboto";
-    background-color: #fff;
+    background-color: rgb(15, 17, 15);
     box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
     padding:15px;
     border-radius: 6px;
@@ -102,6 +102,14 @@ export default {
     left: 0;
     z-index: 1030;
 }
+        #guvu{
+    color: green;
+}
+
+p{
+    color: #fff;
+}
+
 #botoncheck {
     display: none;
 }

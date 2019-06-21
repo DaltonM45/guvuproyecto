@@ -418,7 +418,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -540,7 +539,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n@font-face {\r\n    font-family:\"roboto\";\r\n    src: url('/fonts/Roboto-Regular.ttf');\n}\n@font-face {\r\n    font-family:\"AsapSemibold\";\r\n    src: url('/fonts/Asap-SemiBold.ttf');\n}\n.footer[data-v-61a7c374]{\r\n   /* background-color: #2D3047; */\r\n   background-color: #1e2b38;\r\n   color: #fff;\r\n   display: flex;\r\n   justify-content: center;\r\n   padding-top: 30px;\r\n   padding-bottom: 32px;\r\n   font-family: \"AsapSemibold\";\n}\n.sub-foot[data-v-61a7c374]{\r\n    width: 90%;\r\n    display: flex;\r\n    justify-content: space-around;\n}\r\n/* PANEL GUVU */\n.sub-foot .panel-guvu a[data-v-61a7c374]{\r\n      font-family: \"roboto\";\r\n      text-decoration: none;\r\n      color: #ccc;\n}\n.sub-foot .panel-guvu a[data-v-61a7c374]:hover{\r\n      color: #fff;\n}\r\n/* PANEL MEDIO */\n.panel-medio a[data-v-61a7c374]{\r\n    font-family: \"roboto\";\r\n    text-decoration: none;\r\n     color: #ccc;\n}\n.panel-medio a[data-v-61a7c374]:hover{\r\n    color: #fff;\n}\r\n/* PANEL REDES */\n.panel-redes[data-v-61a7c374] {\r\n   /* width: 60%; */\r\n   padding-left: 18px;\r\n   padding-right: 18px;\n}\n.panel-redes .panel-icons .title[data-v-61a7c374]{\r\n    margin-bottom: 20px;\n}\n.panel-redes .panel-icons .sub-panel-icons[data-v-61a7c374]{\r\n      display: flex;\r\n      justify-content: center;\n}\n.panel-redes .panel-icons a[data-v-61a7c374] {\r\n    color: #fff;\r\n    width: 80px;\r\n    padding: 8px 0;\r\n    border-radius: 3px;\r\n    font-size: 38px;\r\n    margin: 0 20px;\r\n    text-align: center;\r\n    display: block;\r\n    background: #17202a;\n}\n.panel-redes .panel-icons .facebook[data-v-61a7c374]:hover {\r\n    background: #3b5998;\n}\n.panel-redes .panel-icons .instagram[data-v-61a7c374]:hover {\r\n     background: #3f729b;\n}\n.panel-redes .panel-icons .youtube[data-v-61a7c374]:hover {\r\n    background: #cd201f;\n}\r\n/* Panel COPYRIGH */\n.copyright[data-v-61a7c374]{\r\n    background-color: #283a4b;\r\n    color: #fff;\r\n    padding-top: 8px;\r\n    padding-bottom: 8px;\r\n    font-family: \"roboto\";\n}\n.copyright p[data-v-61a7c374]{\r\n    margin: 0px;\n}\r\n\r\n", ""]);
+exports.push([module.i, "\n@font-face {\r\n    font-family:\"roboto\";\r\n    src: url('/fonts/Roboto-Regular.ttf');\n}\n@font-face {\r\n    font-family:\"AsapSemibold\";\r\n    src: url('/fonts/Asap-SemiBold.ttf');\n}\n.footer[data-v-61a7c374]{\r\n   /* background-color: #2D3047; */\r\n   background-color: #000000;\r\n   color: #fff;\r\n   display: flex;\r\n   justify-content: center;\r\n   padding-top: 30px;\r\n   padding-bottom: 32px;\r\n   font-family: \"AsapSemibold\";\n}\n.sub-foot[data-v-61a7c374]{\r\n    width: 90%;\r\n    display: flex;\r\n    justify-content: space-around;\n}\r\n/* PANEL GUVU */\n.sub-foot .panel-guvu a[data-v-61a7c374]{\r\n      font-family: \"roboto\";\r\n      text-decoration: none;\r\n      color: #ccc;\n}\n.sub-foot .panel-guvu a[data-v-61a7c374]:hover{\r\n      color: #fff;\n}\r\n/* PANEL MEDIO */\n.panel-medio a[data-v-61a7c374]{\r\n    font-family: \"roboto\";\r\n    text-decoration: none;\r\n     color: #ccc;\n}\n.panel-medio a[data-v-61a7c374]:hover{\r\n    color: #fff;\n}\r\n/* PANEL REDES */\n.panel-redes[data-v-61a7c374] {\r\n   /* width: 60%; */\r\n   padding-left: 18px;\r\n   padding-right: 18px;\n}\n.panel-redes .panel-icons .title[data-v-61a7c374]{\r\n    margin-bottom: 20px;\n}\n.panel-redes .panel-icons .sub-panel-icons[data-v-61a7c374]{\r\n      display: flex;\r\n      justify-content: center;\n}\n.panel-redes .panel-icons a[data-v-61a7c374] {\r\n    color: #fff;\r\n    width: 80px;\r\n    padding: 8px 0;\r\n    border-radius: 3px;\r\n    font-size: 38px;\r\n    margin: 0 20px;\r\n    text-align: center;\r\n    display: block;\r\n    background: #17202a;\n}\n.panel-redes .panel-icons .facebook[data-v-61a7c374]:hover {\r\n    background: #3b5998;\n}\n.panel-redes .panel-icons .instagram[data-v-61a7c374]:hover {\r\n     background: #3f729b;\n}\n.panel-redes .panel-icons .youtube[data-v-61a7c374]:hover {\r\n    background: #cd201f;\n}\r\n/* Panel COPYRIGH */\n.copyright[data-v-61a7c374]{\r\n    background-color: #000000;\r\n    color: #fff;\r\n    padding-top: 8px;\r\n    padding-bottom: 8px;\r\n    font-family: \"roboto\";\n}\n.copyright p[data-v-61a7c374]{\r\n    margin: 0px;\n}\r\n\r\n", ""]);
 
 // exports
 
@@ -559,7 +558,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nimg.d-block[data-v-f2b6376c] {\r\n  height: 350px;\r\n  width: 100%;\n}\r\n\r\n/* <!-- SORTEOS ACTIVOS --> */\ndiv .center[data-v-f2b6376c] {\r\n  background: rgb(248, 250, 248);\r\n  text-align: center;\n}\ndiv .card[data-v-f2b6376c]{\r\n\r\nmargin-top: 10px;\r\nmargin-bottom: 10px; \r\nwidth: 14rem;\r\nborder: 2px solid rgb(12, 11, 11);\r\nmargin-left: 20\r\npx;\r\nvertical-align: middle;\r\ndisplay: inline-block;\r\nbackground: rgb(238, 231, 231);\n}\n.card-img-top[data-v-f2b6376c]{\r\n  border: 2px solid rgb(11, 12, 11);  \r\n\r\n  width: 11rem;\r\n  margin: 25px;\n}\n.btn-primary[data-v-f2b6376c]{\r\n\r\n  background: black;\r\n  border: black;\n}\r\n\r\n\r\n\r\n/* <!-- /SORTEOS ACTIVOS --> */\r\n", ""]);
+exports.push([module.i, "\n#principal[data-v-f2b6376c]{\r\n  background-color: green;\n}\n#carouselExampleFade[data-v-f2b6376c]{\r\n\r\n    margin-top: 50px;\n}\nimg.d-block[data-v-f2b6376c] {\r\n  margin-top: 20px;\r\n  height: 200px;\r\n  width: 100%;\n}\r\n\r\n/* <!-- SORTEOS ACTIVOS --> */\ndiv .center[data-v-f2b6376c] {\r\n  background-color: white;\r\n  text-align: center;\n}\ndiv .card[data-v-f2b6376c]{\r\nmargin-bottom: 20px; \r\nwidth: 13rem;\r\nborder: 2px solid rgb(12, 11, 11);\r\nmargin-left: 20px;\r\nvertical-align: middle;\r\ndisplay: inline-block;\r\nbackground:white;\n}\n.card-img-top[data-v-f2b6376c]{\r\n\r\n  border: 2px solid rgb(11, 12, 11);  \r\n  width: 11rem;\r\n  margin: 25px;\n}\n.btn-primary[data-v-f2b6376c]{\r\n\r\n  background:  green;\r\n  border: 1px solid black;\r\n  margin-bottom: 3px;\n}\n.img1[data-v-f2b6376c]{\r\n border: 2px dashed black;\r\n  margin-left: 25px;\r\n float: left;\n}\nimg[data-v-f2b6376c]{\r\n  background: white;\n}\r\n\r\n\r\n/* <!-- /SORTEOS ACTIVOS --> */\r\n", ""]);
 
 // exports
 
@@ -578,7 +577,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n@font-face {\r\n    font-family:\"roboto\";\r\n    src: url('/fonts/Roboto-Regular.ttf');\n}\n@font-face {\r\n    font-family:\"AsapSemibold\";\r\n    src: url('/fonts/Asap-SemiBold.ttf');\n}\n.menu[data-v-7fa2c4ca]{\r\n    font-family:\"roboto\";\r\n    background-color: #fff;\r\n    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);\r\n    padding:15px;\r\n    border-radius: 6px;\r\n     position: fixed;\r\n    top: 0;\r\n    right: 0;\r\n    left: 0;\r\n    z-index: 1030;\n}\n#botoncheck[data-v-7fa2c4ca] {\r\n    display: none;\n}\n.sub-menu[data-v-7fa2c4ca]{\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\n}\n.showmenu[data-v-7fa2c4ca]{\r\n     background: #fa0000; \r\n     display: block; \r\n    flex-direction: column;\n}\n.sub-menu .toggle-menu[data-v-7fa2c4ca]{\r\n    display: none;\n}\n.sub-menu .head-min .toggle-menu .barra[data-v-7fa2c4ca]{\r\n        font-size: 22px;\n}\n.sub-menu .guvu-tit p[data-v-7fa2c4ca]{\r\n     font-family:\"AsapSemibold\";\r\n    margin-bottom: 0px;\r\n    font-size: 24px;\r\n    margin-left: 12px;\n}\n.sub-menu .opciones[data-v-7fa2c4ca]{\r\n    display: flex;\r\n    font-size: 14px;\n}\n.sub-menu .opciones .op[data-v-7fa2c4ca]{\r\n    margin-right: 10px;\r\n    margin-left: 10px;\r\n    padding: 10px 20px;\r\n    display: flex;\r\n    cursor: pointer;\n}\n.sub-menu .opciones .op[data-v-7fa2c4ca]:hover{\r\n    background: #069370;\r\n    color: #fff;\r\n    transition: 0.5s;\n}\n.sub-menu .opciones p[data-v-7fa2c4ca]{\r\n    margin-bottom: 0px;\n}\r\n\r\n/* OPCIONES 2 */\n.sub-menu .opciones2[data-v-7fa2c4ca]{\r\n    display: flex;\r\n    font-size: 14px;\n}\n.sub-menu .opciones2 .op[data-v-7fa2c4ca]{\r\n    margin-right: 10px;\r\n    margin-left: 10px;\r\n    padding: 10px 20px;\r\n    display: flex;\r\n    cursor: pointer;\n}\n.sub-menu .opciones2 .op[data-v-7fa2c4ca]:hover{\r\n    background: #069370;\r\n    color: #fff;\r\n    transition: 0.5s;\n}\n.sub-menu .opciones2 p[data-v-7fa2c4ca]{\r\n    margin-bottom: 0px;\n}\r\n\r\n/* RESPONSIVE */\n@media (max-width: 870px){\n.sub-menu[data-v-7fa2c4ca]{\r\n        display: block;\n}\n.sub-menu .head-min[data-v-7fa2c4ca] {\r\n       display: flex;\r\n       align-items: center;\r\n       justify-content: space-between;\n}\n.sub-menu .head-min .toggle-menu[data-v-7fa2c4ca]{\r\n        display: block;\r\n        cursor: pointer;\n}\n.sub-menu .opciones[data-v-7fa2c4ca]{\r\n      flex-direction: column;\n}\n.sub-menu .opciones .op[data-v-7fa2c4ca]{\r\n        text-align: center;\n}\n.sub-menu .opciones2[data-v-7fa2c4ca]{\r\n        display: none;\n}\n}\r\n\r\n\r\n\r\n\r\n", ""]);
+exports.push([module.i, "\n@font-face {\r\n    font-family:\"roboto\";\r\n    src: url('/fonts/Roboto-Regular.ttf');\n}\n@font-face {\r\n    font-family:\"AsapSemibold\";\r\n    src: url('/fonts/Asap-SemiBold.ttf');\n}\n.menu[data-v-7fa2c4ca]{\r\n    font-family:\"roboto\";\r\n    background-color: rgb(15, 17, 15);\r\n    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);\r\n    padding:15px;\r\n    border-radius: 6px;\r\n     position: fixed;\r\n    top: 0;\r\n    right: 0;\r\n    left: 0;\r\n    z-index: 1030;\n}\n#guvu[data-v-7fa2c4ca]{\r\n    color: green;\n}\np[data-v-7fa2c4ca]{\r\n    color: #fff;\n}\n#botoncheck[data-v-7fa2c4ca] {\r\n    display: none;\n}\n.sub-menu[data-v-7fa2c4ca]{\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\n}\n.showmenu[data-v-7fa2c4ca]{\r\n     background: #fa0000; \r\n     display: block; \r\n    flex-direction: column;\n}\n.sub-menu .toggle-menu[data-v-7fa2c4ca]{\r\n    display: none;\n}\n.sub-menu .head-min .toggle-menu .barra[data-v-7fa2c4ca]{\r\n        font-size: 22px;\n}\n.sub-menu .guvu-tit p[data-v-7fa2c4ca]{\r\n     font-family:\"AsapSemibold\";\r\n    margin-bottom: 0px;\r\n    font-size: 24px;\r\n    margin-left: 12px;\n}\n.sub-menu .opciones[data-v-7fa2c4ca]{\r\n    display: flex;\r\n    font-size: 14px;\n}\n.sub-menu .opciones .op[data-v-7fa2c4ca]{\r\n    margin-right: 10px;\r\n    margin-left: 10px;\r\n    padding: 10px 20px;\r\n    display: flex;\r\n    cursor: pointer;\n}\n.sub-menu .opciones .op[data-v-7fa2c4ca]:hover{\r\n    background: #069370;\r\n    color: #fff;\r\n    transition: 0.5s;\n}\n.sub-menu .opciones p[data-v-7fa2c4ca]{\r\n    margin-bottom: 0px;\n}\r\n\r\n/* OPCIONES 2 */\n.sub-menu .opciones2[data-v-7fa2c4ca]{\r\n    display: flex;\r\n    font-size: 14px;\n}\n.sub-menu .opciones2 .op[data-v-7fa2c4ca]{\r\n    margin-right: 10px;\r\n    margin-left: 10px;\r\n    padding: 10px 20px;\r\n    display: flex;\r\n    cursor: pointer;\n}\n.sub-menu .opciones2 .op[data-v-7fa2c4ca]:hover{\r\n    background: #069370;\r\n    color: #fff;\r\n    transition: 0.5s;\n}\n.sub-menu .opciones2 p[data-v-7fa2c4ca]{\r\n    margin-bottom: 0px;\n}\r\n\r\n/* RESPONSIVE */\n@media (max-width: 870px){\n.sub-menu[data-v-7fa2c4ca]{\r\n        display: block;\n}\n.sub-menu .head-min[data-v-7fa2c4ca] {\r\n       display: flex;\r\n       align-items: center;\r\n       justify-content: space-between;\n}\n.sub-menu .head-min .toggle-menu[data-v-7fa2c4ca]{\r\n        display: block;\r\n        cursor: pointer;\n}\n.sub-menu .opciones[data-v-7fa2c4ca]{\r\n      flex-direction: column;\n}\n.sub-menu .opciones .op[data-v-7fa2c4ca]{\r\n        text-align: center;\n}\n.sub-menu .opciones2[data-v-7fa2c4ca]{\r\n        display: none;\n}\n}\r\n\r\n\r\n\r\n\r\n", ""]);
 
 // exports
 
@@ -2016,12 +2015,35 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
+    { attrs: { id: "principal" } },
     [
       _c("menu-component"),
       _vm._v(" "),
       _vm._m(0),
       _vm._v(" "),
-      _vm._m(1),
+      _c(
+        "div",
+        { staticClass: "center" },
+        [
+          _c("H1", [
+            _c("b", [_vm._v(" Sorteos activos")]),
+            _vm._v("         "),
+            _c("b", [_vm._v("Quedan:")]),
+            _vm._v(" 1d 2h 34min 56s ")
+          ]),
+          _vm._v(" "),
+          _vm._m(1),
+          _vm._v(" "),
+          _vm._m(2),
+          _vm._v(" "),
+          _vm._m(3),
+          _vm._v(" "),
+          _vm._m(4),
+          _vm._v(" "),
+          _vm._m(5)
+        ],
+        1
+      ),
       _vm._v(" "),
       _c("br"),
       _vm._v(" "),
@@ -2110,10 +2132,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "carousel-item active" }, [
             _c("img", {
               staticClass: "d-block",
-              attrs: {
-                src: "https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg",
-                alt: "First slide"
-              }
+              attrs: { src: "img/Carrousel1.png", alt: "First slide" }
             })
           ]),
           _vm._v(" "),
@@ -2192,106 +2211,107 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "center" }, [
-      _c("div", { staticClass: "card" }, [
-        _c("img", {
-          staticClass: "card-img-top",
-          attrs: {
-            src: "https://mcdn.wallpapersafari.com/medium/98/78/BxfMoq.jpg",
-            alt: "Card image cap"
-          }
-        }),
+    return _c("div", { staticClass: "img1" }, [
+      _c("img", {
+        attrs: {
+          src: "img/Lonuevo.png",
+          alt: "imagen",
+          width: "220",
+          height: "270.250"
+        }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "card" }, [
+      _c("img", {
+        staticStyle: { width: "100%" },
+        attrs: { id: "sorteos", src: "img/iphone.png", alt: "Avatar" }
+      }),
+      _vm._v(" "),
+      _c("div", { staticClass: "container" }, [
+        _c("h4", [_c("b", [_vm._v("Mas Información")])]),
         _vm._v(" "),
-        _c("div", { staticClass: "card-body" }, [
-          _c("p", { staticClass: "card-text" }, [_vm._v("PS4")]),
-          _vm._v(" "),
-          _c(
-            "button",
-            { staticClass: "btn btn-primary", attrs: { type: "button" } },
-            [_vm._v("Primary")]
-          )
-        ])
+        _c("p", [_vm._v("$150")])
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "card" }, [
-        _c("img", {
-          staticClass: "card-img-top",
-          attrs: {
-            src: "https://mcdn.wallpapersafari.com/medium/98/78/BxfMoq.jpg",
-            alt: "Card image cap"
-          }
-        }),
+      _c(
+        "button",
+        { staticClass: "btn btn-primary", attrs: { type: "button" } },
+        [_vm._v("Participar")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "card" }, [
+      _c("img", {
+        staticStyle: { width: "100%" },
+        attrs: { id: "sorteos", src: "img/iphone.png", alt: "Avatar" }
+      }),
+      _vm._v(" "),
+      _c("div", { staticClass: "container" }, [
+        _c("h4", [_c("b", [_vm._v("Mas Información")])]),
         _vm._v(" "),
-        _c("div", { staticClass: "card-body" }, [
-          _c("p", { staticClass: "card-text" }, [_vm._v("PS4")]),
-          _vm._v(" "),
-          _c(
-            "button",
-            { staticClass: "btn btn-primary", attrs: { type: "button" } },
-            [_vm._v("Primary")]
-          )
-        ])
+        _c("p", [_vm._v("$150")])
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "card" }, [
-        _c("img", {
-          staticClass: "card-img-top",
-          attrs: {
-            src: "https://mcdn.wallpapersafari.com/medium/98/78/BxfMoq.jpg",
-            alt: "Card image cap"
-          }
-        }),
+      _c(
+        "button",
+        { staticClass: "btn btn-primary", attrs: { type: "button" } },
+        [_vm._v("Participar")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "card" }, [
+      _c("img", {
+        staticStyle: { width: "100%" },
+        attrs: { id: "sorteos", src: "img/iphone.png", alt: "Avatar" }
+      }),
+      _vm._v(" "),
+      _c("div", { staticClass: "container" }, [
+        _c("h4", [_c("b", [_vm._v("Mas Información")])]),
         _vm._v(" "),
-        _c("div", { staticClass: "card-body" }, [
-          _c("p", { staticClass: "card-text" }, [_vm._v("PS4")]),
-          _vm._v(" "),
-          _c(
-            "button",
-            { staticClass: "btn btn-primary", attrs: { type: "button" } },
-            [_vm._v("Primary")]
-          )
-        ])
+        _c("p", [_vm._v("$150")])
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "card" }, [
-        _c("img", {
-          staticClass: "card-img-top",
-          attrs: {
-            src: "https://mcdn.wallpapersafari.com/medium/98/78/BxfMoq.jpg",
-            alt: "Card image cap"
-          }
-        }),
+      _c(
+        "button",
+        { staticClass: "btn btn-primary", attrs: { type: "button" } },
+        [_vm._v("Participar")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "card" }, [
+      _c("img", {
+        staticStyle: { width: "100%" },
+        attrs: { id: "sorteos", src: "img/iphone.png", alt: "Avatar" }
+      }),
+      _vm._v(" "),
+      _c("div", { staticClass: "container" }, [
+        _c("h4", [_c("b", [_vm._v("Mas Información")])]),
         _vm._v(" "),
-        _c("div", { staticClass: "card-body" }, [
-          _c("p", { staticClass: "card-text" }, [_vm._v("PS4")]),
-          _vm._v(" "),
-          _c(
-            "button",
-            { staticClass: "btn btn-primary", attrs: { type: "button" } },
-            [_vm._v("Primary")]
-          )
-        ])
+        _c("p", [_vm._v("$150")])
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "card" }, [
-        _c("img", {
-          staticClass: "card-img-top",
-          attrs: {
-            src: "https://mcdn.wallpapersafari.com/medium/98/78/BxfMoq.jpg",
-            alt: "Card image cap"
-          }
-        }),
-        _vm._v(" "),
-        _c("div", { staticClass: "card-body" }, [
-          _c("p", { staticClass: "card-text" }, [_vm._v("PS4")]),
-          _vm._v(" "),
-          _c(
-            "button",
-            { staticClass: "btn btn-primary", attrs: { type: "button" } },
-            [_vm._v("Primary")]
-          )
-        ])
-      ])
+      _c(
+        "button",
+        { staticClass: "btn btn-primary", attrs: { type: "button" } },
+        [_vm._v("Participar")]
+      )
     ])
   }
 ]
@@ -2418,7 +2438,9 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "guvu-tit" }, [_c("p", [_vm._v("Guvu")])])
+    return _c("div", { staticClass: "guvu-tit" }, [
+      _c("p", { attrs: { id: "guvu" } }, [_vm._v("Guvu")])
+    ])
   },
   function() {
     var _vm = this
@@ -2456,32 +2478,40 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "op" }, [_c("p", [_vm._v("inicio")])])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "op" }, [_c("p", [_vm._v("Contactos")])])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "op" }, [_c("p", [_vm._v("Acerca de")])])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "op" }, [_c("p", [_vm._v("Acerca de")])])
+    return _c("div", { staticClass: "op" }, [
+      _c("p", [_c("b", [_vm._v("inicio")])])
+    ])
   },
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "op" }, [
-      _c("p", [_vm._v("iniciar sesion")])
+      _c("p", [_c("b", [_vm._v("Contactos")])])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "op" }, [
+      _c("p", [_c("b", [_vm._v("Acerca de")])])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "op" }, [
+      _c("p", [_c("b", [_vm._v("Acerca de")])])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "op" }, [
+      _c("p", [_c("b", [_vm._v("iniciar sesion")])])
     ])
   }
 ]

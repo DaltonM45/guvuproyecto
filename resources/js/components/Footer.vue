@@ -81,7 +81,7 @@ export default {
 }
 .footer{
    /* background-color: #2D3047; */
-   background-color: #1e2b38;
+   background-color: #000000;
    color: #fff;
    display: flex;
    justify-content: center;
@@ -148,7 +148,7 @@ export default {
 }
 /* Panel COPYRIGH */
 .copyright{
-    background-color: #283a4b;
+    background-color: #000000;
     color: #fff;
     padding-top: 8px;
     padding-bottom: 8px;
