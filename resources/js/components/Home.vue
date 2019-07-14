@@ -55,7 +55,7 @@
   <img id="sorteos" src="img/iphone.png" alt="Avatar" style="width:100%">
   <div class="container">
     <h4><b>Mas Información</b></h4> 
-    <p>$150</p> 
+    <p>$220</p> 
   </div>
    <button type="button" class="btn btn-primary">Participar</button>
 </div>
@@ -76,7 +76,7 @@
   <img id="sorteos" src="img/iphone.png" alt="Avatar" style="width:100%">
   <div class="container">
     <h4><b>Mas Información</b></h4> 
-    <p>$150</p> 
+    <p>$200</p> 
   </div>
    <button type="button" class="btn btn-primary">Participar</button>
 </div>

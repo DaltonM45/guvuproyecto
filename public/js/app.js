@@ -2258,7 +2258,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "container" }, [
         _c("h4", [_c("b", [_vm._v("Mas Información")])]),
         _vm._v(" "),
-        _c("p", [_vm._v("$150")])
+        _c("p", [_vm._v("$220")])
       ]),
       _vm._v(" "),
       _c(
@@ -2304,7 +2304,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "container" }, [
         _c("h4", [_c("b", [_vm._v("Mas Información")])]),
         _vm._v(" "),
-        _c("p", [_vm._v("$150")])
+        _c("p", [_vm._v("$200")])
       ]),
       _vm._v(" "),
       _c(

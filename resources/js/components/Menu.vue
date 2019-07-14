@@ -102,7 +102,7 @@ export default {
     left: 0;
     z-index: 1030;
 }
-        #guvu{
+#guvu{
     color: green;
 }
 
