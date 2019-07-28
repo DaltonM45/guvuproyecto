@@ -2,9 +2,9 @@
             
     <div > 
         <menu-component> </menu-component>
-        <p class="prueba">
-             componente about
-        </p>
+       <div class="dv">
+            componente acerca de
+       </div>
        
         
         

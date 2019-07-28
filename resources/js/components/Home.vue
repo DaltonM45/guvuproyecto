@@ -5,7 +5,7 @@
 
 <!-- Inicio del carrousel  -->
   
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+    <!-- <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
   <div class="carousel-inner">
 
     <div class="carousel-item active">
@@ -29,13 +29,15 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div>
+</div> -->
+
+
 <!-- Figot pulln del Carrousel  -->
 
 
 <!-- SORTEOS ACTIVOS -->
 <div class="center">
-<H1><b> Sorteos activos</b>  &nbsp; &nbsp; &nbsp;  <b>Quedan:</b> 1d 2h 34min 56s </H1>  
+<!--<H1><b> Sorteos activos</b>  &nbsp; &nbsp; &nbsp;  <b>Quedan:</b> 1d 2h 34min 56s </H1>  
 
 <div class="img1"  style="">
   <img src="img/Lonuevo.png" alt="imagen" width="220" height="270.250">
@@ -51,7 +53,7 @@
 </div>
 
 
-<div class="card">
+ <div class="card">
   <img id="sorteos" src="img/iphone.png" alt="Avatar" style="width:100%">
   <div class="container">
     <h4><b>Mas Información</b></h4> 
@@ -79,7 +81,7 @@
     <p>$200</p> 
   </div>
    <button type="button" class="btn btn-primary">Participar</button>
-</div>
+</div> -->
 
 
 </div>
@@ -147,9 +149,6 @@ export default {
 
 <style scoped>
 
-#principal{
-  background-color: green;
-  }
 
   #carouselExampleFade{
 
